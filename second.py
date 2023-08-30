@@ -19,13 +19,14 @@ num2 = float(input("Second number: "))
 num3 = float(input("Third number: "))
 numberSum = num1 + num2 + num3
 numberProduct = num1 * num2 * num3
-numberAverage = float(numberSum / 3)
+numberAverage = f"{(numberSum / 3):.3f}"
 
 print(numberSum)
 print(numberProduct)
 print(numberAverage)
 
+# Random number combinations
 import random
-randomNumber = random.randint(0, 9)
+randomNumber = random.sample(range(0, 9),3)
 print(randomNumber)
 
