@@ -25,5 +25,7 @@ print(numberSum)
 print(numberProduct)
 print(numberAverage)
 
-
+import random
+randomNumber = random.randint(0, 9)
+print(randomNumber)
 
