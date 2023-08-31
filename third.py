@@ -53,6 +53,16 @@ elif gender == 'm' and hemoglobinValue > 167:
 elif gender == 'm':
     print("Hemoglobin level is normal")
 
+# Fourth exercise
+
+currentYear = int(input("Enter current year: "))
+
+if currentYear % 4 == 0:
+    print("Leap year")
+elif currentYear % 100 == 0 and currentYear % 400 == 0:
+    print("Leap year")
+else:
+    print("Not a leap year")
 
 
 
