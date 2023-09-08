@@ -1,74 +1,74 @@
-prompt = "\nTell me something and I will repeat it for you"
-prompt += "\nEnter 'quit' to exit the program\n"
-message = ""
-while message != 'quit':
-    message = input(prompt)
-    if message != 'quit':
-        print(message)
+# WHILE loops
 
-# First exercise
-
-number = 1
-while number <= 1000:
-    if number % 3 == 0:
-        print(number)
-    number += 1
-
-# Second exercise
-
-inches = int(input("Input quantity in inches: "))
-while inches > 0:
-    print(f"{inches} inches is equal to {inches * 2.54 :.2f} centimeters")
-    inches = int(input("Input quantity in inches: "))
-    if inches <= 0:
-        print("Program ended.")
-
-# Third exercise (need help)
-
-numberInput = input("Enter your numbers: ")
-while numberInput != "":
-    if numberInput == "":
+uInput = ''
+while uInput != 'stop':
+    uInput = input("Give a command (use 'stop' to stop): ")
+    if uInput == 'delete':
+        print("Oh my, not the delete command..")
         break
-    numberInput = input("Enter your numbers: ")
+    print(f"You gave {uinput} command")
 
-smallest = min(numberInput)
-largest = max(numberInput)
-print(f"The smallest number is: {smallest}")
-print(f"The largest number is: {largest}")
+print("This is the end")
 
-# Fourth exercise
+# Nested while loops
 
-import random
+a = 0
 
-randomNumber = random.randint(1, 10)
+while a < 5:
+    b = 0
+    while b < 6:
+        b += 1
+        print(f"{a} multiplied with {b} is {a*b}")
+    a += 1
 
-while True:
-    userGuess = int(input("Guess the number from 1 to 10: "))
+# LIST structures
 
-    if userGuess == randomNumber:
-        print("You guessed correct")
+lst = ["Kimmo", "Mohammad", "Jane"]
+
+print(lst[0])
+print(lst[-2])
+# To print range (not including the last one)
+print(lst[0:2])
+# From 1 til the end
+print(lst[1:])
+
+# FOR loops
+
+lst = ["Kimmo", "Mohammad", "Jane", "Kalle"]
+
+for x in lst:
+    print(f"x is {x}")
+    if x == "Jane":
         break
-    elif userGuess < randomNumber:
-        print("Too low")
-    else:
-        print("Too high")
 
-# Fifth exercise
+lst = ["Kimmo", "Janne", "Mohammad", "Jane"]
 
-username = "Julija"
-password = "ivaske"
-attempt = 0
+for xid, x in enumerate(lst):
+    if x != lst[-1]:
+        print(f"{x} is having coffee with {lst[xid +1]}")
+    #print(f"x is {x} and the lst index is {xid}")
 
-while attempt < 5:
-    usernameInput = input("Enter username: ")
-    passwordInput = input("Enter password: ")
+# 0 to 6, every 2 numbers
+for i in range(0, 6, 2):
+    print(i)
 
-    if usernameInput == username and passwordInput == password:
-        print("Welcome")
-        break
-    else:
-        print("Enter username and password again")
-        attempt += 1
+for i in range(10, -1, -1):
+    print(i)
 
-if attempt >= 5:
-    print("Access denied")
+str = "dfguyhio"
+for i in range(0, len(str), 2):
+    print(str[i])
+
+# Parts of integers
+nm = 545.4582
+print(f"Integer part is {int(nm)} and the fraction part is {nm%1}")
+
+lst = ["Kimmo", "Janne", "Mohammad", "Jane"]
+
+newList = [x for x in lst if x != "Kimmo"]
+print(f"New list is {newList}")
+
+# Changing strings in list to numbers
+nmb = ["23", "4", "56"]
+nmb = [int(x) for x in nmb]
+print(nmb)
