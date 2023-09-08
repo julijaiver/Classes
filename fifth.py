@@ -10,3 +10,15 @@ for i in range(diceTimes):
 
 print(f"Total sum of {diceTimes} dice rolled is {sum}")
 
+# Second exercise
+
+numbers = []
+inputNumbers = input("Enter numbers (press 'Enter' to stop): ")
+while inputNumbers != "":
+    numbers.append(inputNumbers)
+    inputNumbers = input("Enter numbers (press 'Enter' to stop): ")
+
+numbers = [int(x) for x in numbers]
+numbers.sort(reverse=True)
+for i in range(5):
+    print(numbers[i])
