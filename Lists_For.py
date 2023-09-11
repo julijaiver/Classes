@@ -23,13 +23,19 @@ numbers.sort(reverse=True)
 for i in range(5):
     print(numbers[i])
 
-# Third testing
+# Fourth testing
 
 cities = []
-inputInt = input("Provide names of cities(use Enter to end input): ")
-for i in inputInt:
-    cities.append(inputInt)
-    input("Provide names of cities: ")
+inputInt = input("Provide five names of cities: ")
 
-print(cities)
+for i in range(5):
+    cities.append(inputInt)
+    inputInt = input("Provide names of cities: ")
+
+for city in cities:
+    print(city)
+
+
+
+
 
