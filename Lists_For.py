@@ -1,14 +1,13 @@
 # First exercise
 
 import random
-diceTimes = int(input("How many dice to roll?\n"))
+diceInput = int(input("How many dice to roll? "))
 sum = 0
-
-for i in range(diceTimes):
-    diceRoll = random.randint(1, 6)
-    sum += diceRoll
-
-print(f"Total sum of {diceTimes} dice rolled is {sum}")
+for i in range(diceInput):
+    rollDice = random.randint(1, 6)
+    print(f"Dice rolled: {rollDice}")
+    sum += rollDice
+print(f"Sum of {diceInput} dice rolls is equal to {sum}")
 
 # Second exercise
 
