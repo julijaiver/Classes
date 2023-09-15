@@ -29,8 +29,22 @@ print(f"The smallest number is: {smallest}")
 print(f"The largest number is: {largest}")
 
 # Tried fixing with lists
+# Wit if statement
+numberList = []
+
+userInput = input("Provide a number: ")
+while userInput != "":
+    if userInput != "":
+        userInput = int(userInput)
+        numberList.append(userInput)
+    userInput = input("Provide a number: ")
+
+min_number = min(numberList)
+max_number = max(numberList)
+print("Lowest value:", min_number, "Highest value: ", max_number)
 numbers = []
 
+# With 'try'
 userInput = input("Provide numbers. Use Enter to stop\n")
 while userInput != "":
     try:
