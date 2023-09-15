@@ -92,20 +92,20 @@ print("You are right")
 
 # Fifth exercise
 
-username = "Julija"
-password = "ivaske"
-attempt = 0
+username = "Julijaiv"
+password = "1234"
 
-while attempt < 5:
-    usernameInput = input("Enter username: ")
-    passwordInput = input("Enter password: ")
-
-    if usernameInput == username and passwordInput == password:
+inputUsername = input("Provide username: ")
+inputPass = input("Provide password: ")
+numberOfTries = 0
+while numberOfTries < 4:
+    if inputUsername != username and inputPass != password:
+        print("Invalid credentials")
+    else:
         print("Welcome")
         break
-    else:
-        print("Enter username and password again")
-        attempt += 1
-
-if attempt >= 5:
-    print("Access denied")
+    numberOfTries += 1
+    inputUsername = input("Provide username: ")
+    inputPass = input("Provide username: ")
+    if numberOfTries >= 4:
+        print("Access denied")
