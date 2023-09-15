@@ -70,7 +70,6 @@ randomNumber = random.randint(1, 10)
 
 while True:
     userGuess = int(input("Guess the number from 1 to 10: "))
-
     if userGuess == randomNumber:
         print("You guessed correct")
         break
@@ -78,6 +77,18 @@ while True:
         print("Too low")
     else:
         print("Too high")
+# Another way worked
+import random
+random_number = random.randint(1, 10)
+
+userGuess = int(input("Guess the number from 1 to 10: "))
+while userGuess != random_number:
+    if userGuess > random_number:
+        print("Too high")
+    elif userGuess < random_number:
+        print("Too low")
+    userGuess = int(input("Guess the number from 1 to 10: "))
+print("You are right")
 
 # Fifth exercise
 
