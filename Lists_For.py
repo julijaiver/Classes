@@ -21,6 +21,20 @@ numbers = [int(x) for x in numbers]
 numbers.sort(reverse=True)
 for i in range(5):
     print(numbers[i])
+# Another way
+numberList = []
+
+usersNumbers = input("Enter numbers: ")
+while usersNumbers != "":
+    try:
+        usersNumbers = int(usersNumbers)
+        numberList.append(usersNumbers)
+    except ValueError:
+        print("Value entered is not a number")
+    usersNumbers = input("Enter numbers: ")
+numberList.sort(reverse=True)
+for i in range(5):
+    print(numberList[i])
 
 # Third exercise
 
@@ -36,15 +50,12 @@ elif inpNumber > 1:
         print(f"{inpNumber} is a prime number")
 
 
-# Fourth testing
+# Fourth
 
 cities = []
-inputInt = input("Provide five names of cities: ")
-
 for i in range(5):
-    cities.append(inputInt)
-    inputInt = input("Provide names of cities: ")
-
+    userInput = input("Provide five cities: ")
+    cities.append(userInput)
 for city in cities:
     print(city)
 
