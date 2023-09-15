@@ -28,6 +28,26 @@ largest = max(numberInput)
 print(f"The smallest number is: {smallest}")
 print(f"The largest number is: {largest}")
 
+# Tried fixing with lists
+numbers = []
+
+userInput = input("Provide numbers. Use Enter to stop\n")
+while userInput != "":
+    try:
+        number = int(userInput)
+        numbers.append(number)
+    except ValueError:
+        print("Invalid input")
+    userInput = input("Provide numbers: ")
+
+if not numbers:
+    print("No valid numbers")
+else:
+    min_number = min(numbers)
+    max_number = max(numbers)
+
+print("Lowest value: ", min_number, "Highest value: ", max_number)
+
 # Fourth exercise
 
 import random
