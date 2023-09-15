@@ -57,12 +57,11 @@ elif gender == 'm':
 
 currentYear = int(input("Enter current year: "))
 
-if currentYear % 4 == 0:
-    print("Leap year")
-elif currentYear % 100 == 0 and currentYear % 400 == 0:
-    print("Leap year")
+userInput = int(input("Enter a year: "))
+if (userInput % 4 == 0) or (userInput % 100 == 0 and userInput % 400 == 0):
+    print("This is a leap year")
 else:
-    print("Not a leap year")
+    print("This is not a leap year")
 
 
 
