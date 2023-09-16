@@ -42,8 +42,8 @@ if gasolineQuantity < 0:
     print("You entered a negative number")
 
 # Fourth exercise
-def sum_of_list(integers):
-    total = sum(integers)
+def sum_of_list(a):
+    total = sum(a)
     return total
 
 
@@ -74,3 +74,26 @@ while userInp != "":
 print(numbers)
 newList = even_only(numbers)
 print(newList)
+
+# Sixth exercise
+def unit_price(diameter, price):
+    area = 3.14 * diameter**2
+    sq_meters = area * 0.0001
+    unit_pr = price / sq_meters
+    return unit_pr
+
+
+pizza1_cm = float(input("Provide diameter of 1st pizza in cm\n"))
+pizza1_eur = float(input("Provide price of 1st pizza in eur\n"))
+pizza2_cm = float(input("Provide diameter of 2nd pizza in cm\n"))
+pizza2_eur = float(input("Provide price of 2nd pizza in eur\n"))
+
+value_Pizza1 = unit_price(pizza1_cm, pizza1_eur)
+value_Pizza2 = unit_price(pizza2_cm, pizza2_eur)
+
+if value_Pizza1 < value_Pizza2:
+    print("1st pizza provides better value for money")
+elif value_Pizza1 > value_Pizza2:
+    print("2nd pizza provides better value for money")
+else:
+    print("Input incorrect")
