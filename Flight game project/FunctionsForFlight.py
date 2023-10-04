@@ -88,8 +88,7 @@ def airport_distance(starting, end):
     start = get_airport_info(starting)
     ending = get_airport_info(end)
     return distance.distance((start['latitude_deg'], start['longitude_deg']),
-                             (end['latitude_deg'], end['longitude_deg'])).km
-
+                             (ending['latitude_deg'], ending['longitude_deg'])).km
 
 
 def location_update(icao, bat_power, score):
@@ -98,10 +97,10 @@ def location_update(icao, bat_power, score):
     cursor.execute(sql, (icao, bat_power, score))
 
 
-def path_game(path_choice):
+def is_path_game_won(path_choice):
     rand_path = random.randint(1, 5)
     if path_choice == rand_path:
-        return "Oh no! You were not careful and got caught..."
+        return False
     else:
-        return "Path successful! You got 10% extra battery power and 15 points"
+        return True
 
