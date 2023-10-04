@@ -38,10 +38,6 @@ def new_game(player_name, current_airport, all_airports):
     cursor.execute(sql, (player_name, current_airport))
     game_id = cursor.lastrowid
 
-    # Excluding starting airport
-    game_airport = all_airports[1:].copy()
-    random.shuffle(game_airport)
-
     # Adding goals
     goals = get_goals()
     goal_list = []
@@ -49,13 +45,17 @@ def new_game(player_name, current_airport, all_airports):
         for i in range(0, goal['probability'], 1):
             goal_list.append(goal['id'])
 
+    # Excluding starting airport
+    game_airport = all_airports[1:].copy()
+    random.shuffle(game_airport)
+
     for i, goal_id in enumerate(goal_list):
-        sql = "insert into spying_location (game, goal, airport) values (%s, %s, %s);"
-        cursor = connection.cursor(dictionary=True)
-        cursor.execute(sql, (game_id, game_airport[i]['ident'], goal_id))
+        if i < len(game_airport):
+            sql = "insert into spying_location (game, goal, airport) values (%s, %s, %s);"
+            cursor = connection.cursor(dictionary=True)
+            cursor.execute(sql, (game_id, goal_id, game_airport[i]['ident']))
 
     return game_id
-
 
 # Get airport information
 def get_airport_info(icao):
