@@ -90,8 +90,16 @@ def airport_distance(starting, end):
     return distance.distance((start['latitude_deg'], start['longitude_deg']),
                              (end['latitude_deg'], end['longitude_deg'])).km
 
+# get airports in range:
+def airports_in_range(icao, airports, remaining_battery):
+    in_range = []
+    for airport in airports:
+        distance = airport_distance(icao, airport['ident'])
+        if (distance <= remaining_battery and not distance == 0):
+            in_range.append(airport)
+    return in_range
 
-
+# update location
 def location_update(icao, bat_power, score):
     sql = f"update game set location = %s, battery_power = %s, score = %s where id = %s;"
     cursor = connection.cursor(dictionary=True)
