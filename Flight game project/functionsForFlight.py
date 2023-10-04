@@ -57,6 +57,7 @@ def new_game(player_name, current_airport, all_airports):
 
     return game_id
 
+
 # Get airport information
 def get_airport_info(icao):
     sql = " select country.name, ident, airport.name, latitude_deg, longitude_deg from airport, country "
@@ -83,24 +84,38 @@ def location_goal(game_id, location):
     result = cursor.fetchone()
     return result
 
+
 # Distance between airports
 def airport_distance(starting, end):
     start = get_airport_info(starting)
     ending = get_airport_info(end)
-    return distance.distance((start['latitude_deg'], start['longitude_deg']),
-                             (ending['latitude_deg'], ending['longitude_deg'])).km
+    start_coordinates = (start['latitude_deg'], start['longitude_deg'])
+    end_coordinates = (ending['latitude_deg'], ending['longitude_deg'])
+
+    return int(distance.distance(start_coordinates, end_coordinates).km)
 
 
+# get airports in range:
+def airports_in_range(icao, airports, remaining_battery):
+    in_range = []
+    for airport in airports:
+        distance = airport_distance(icao, airport['ident'])
+        if (distance <= remaining_battery and not distance == 0):
+            in_range.append(airport)
+    return in_range
+
+
+# update location
 def location_update(icao, bat_power, score):
     sql = f"update game set location = %s, battery_power = %s, score = %s where id = %s;"
     cursor = connection.cursor(dictionary=True)
     cursor.execute(sql, (icao, bat_power, score))
 
 
+# Formulate messages in the main
 def is_path_game_won(path_choice):
     rand_path = random.randint(1, 5)
     if path_choice == rand_path:
         return False
     else:
         return True
-
