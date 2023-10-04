@@ -13,57 +13,10 @@ connection = mysql.connector.connect(
 
 
 # fetch airports from different continents
-def get_eu_airports():
-    sql = """select iso_country, ident, name, type, latitude_deg, longitude_deg
-from airport 
-where iso_country in(select iso_country from airport where continent = "EU")
-and ident in(select min(ident) from airport where continent = "EU" 
-and not type = "closed" group by iso_country)
-order by rand()
-limit 50;"""
-    cursor = connection.cursor(dictionary=True)
-    cursor.execute(sql)
-    result = cursor.fetchall()
-    return result
-
-
-def get_africa_airports():
-    sql = """select iso_country, ident, name, type, latitude_deg, longitude_deg
-    from airport 
-    where iso_country in(select iso_country from airport where continent = "AF")
-    and ident in(select min(ident) from airport where continent = "AF" 
-    and not type = "closed" group by iso_country)
-    order by rand()
-    limit 50;"""
-    cursor = connection.cursor(dictionary=True)
-    cursor.execute(sql)
-    result = cursor.fetchall()
-    return result
-
-
-def get_asia_airports():
-    sql = """select iso_country, ident, name, type, latitude_deg, longitude_deg
-    from airport 
-    where iso_country in(select iso_country from airport where continent = "AS")
-    and ident in(select min(ident) from airport where continent = "AS" 
-    and not type = "closed" group by iso_country)
-    order by rand()
-    limit 50;"""
-    cursor = connection.cursor(dictionary=True)
-    cursor.execute(sql)
-    result = cursor.fetchall()
-    return result
-
-
-# Maybe exclude this one
-def get_north_am_airports():
-    sql = """select iso_country, ident, name, type, latitude_deg, longitude_deg
-    from airport 
-    where iso_country in(select iso_country from airport where continent = "NA")
-    and ident in(select min(ident) from airport where continent = "NA"
-    and not type = "closed" group by iso_country)
-    order by rand()
-    limit 40;"""
+def get_airports(cont):
+    sql = " select iso_country, ident, name, type, latitude_deg, longitude_deg "
+    sql += " from airport where continent ='" + cont + "'"
+    sql += " and not type = 'closed' group by iso_country order by rand() limit 50; "
     cursor = connection.cursor(dictionary=True)
     cursor.execute(sql)
     result = cursor.fetchall()
@@ -79,10 +32,10 @@ def get_goals():
     return result
 
 
-def new_game(player_name, current_airport, battery_power, all_airports):
-    sql = "insert into game(screen_name, location, battery_power, score) values (%s, %s, %s, %s);"
+def new_game(player_name, current_airport, all_airports):
+    sql = "insert into game(screen_name, location, battery_power, score) values (%s, %s , 100, 0);"
     cursor = connection.cursor(dictionary=True)
-    cursor.execute(sql, (player_name, current_airport, battery_power))
+    cursor.execute(sql, (player_name, current_airport))
     game_id = cursor.lastrowid
 
     # Excluding starting airport
