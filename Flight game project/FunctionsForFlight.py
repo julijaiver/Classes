@@ -1,5 +1,5 @@
 import random
-import
+from geopy import distance
 import mysql.connector
 
 connection = mysql.connector.connect(
@@ -33,7 +33,7 @@ def get_goals():
 
 
 def new_game(player_name, current_airport, all_airports):
-    sql = "insert into game(screen_name, location, battery_power, score) values (%s, %s , 100, 0);"
+    sql = "insert into game(screen_name, location, battery_power, score) values (%s, %s , 6000, 0);"
     cursor = connection.cursor(dictionary=True)
     cursor.execute(sql, (player_name, current_airport))
     game_id = cursor.lastrowid
@@ -59,10 +59,10 @@ def new_game(player_name, current_airport, all_airports):
 
 # Get airport information
 def get_airport_info(icao):
-    sql = (f"select country.name, ident, airport.name, latitude_deg, longitude_deg from airport, country "
-           f"where airport.iso_country = country.iso_country and ident = %s;")
+    sql = " select country.name, ident, airport.name, latitude_deg, longitude_deg from airport, country "
+    sql += " where airport.iso_country = country.iso_country and ident = '" + icao + "'"
     cursor = connection.cursor(dictionary=True)
-    cursor.execute(sql, icao)
+    cursor.execute(sql)
     result = cursor.fetchall()
     return result
 
@@ -84,7 +84,14 @@ def location_goal(game_id, location):
     return result
 
 # Distance between airports
-def airport_distance
+def airport_distance(starting, end):
+    start = get_airport_info(starting)
+    ending = get_airport_info(end)
+    return distance.distance((start['latitude_deg'], start['longitude_deg']),
+                             (end['latitude_deg'], end['longitude_deg'])).km
+
+
+
 def location_update(icao, bat_power, score):
     sql = f"update game set location = %s, battery_power = %s, score = %s where id = %s;"
     cursor = connection.cursor(dictionary=True)
