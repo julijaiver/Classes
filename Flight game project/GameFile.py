@@ -1,8 +1,7 @@
 import random
-import spyPlaneStory
 from geopy import distance
-
 import mysql.connector
+import spy_fly_story
 
 connection = mysql.connector.connect(
     host='localhost',
@@ -160,12 +159,11 @@ def get_rank():
 
 storyDialog = input('Do you want to read the background story? Y/N: ').upper()
 if storyDialog == 'Y':
-    for line in spyPlaneStory.getStory():
+    for line in spy_fly_story.get_story():
         print(line)
 
-
 # GAME SETTINGS
-print("\nWhen you are ready to start, ")
+print("When you are ready to start, ")
 player = input("type your name: ")
 # boolean for game over and win
 game_over = False
@@ -178,9 +176,12 @@ battery = 6000
 score = 0
 
 # all airports & level selection
-print("Select your continent ")
+print("Select your continent, "
+      "\nEU - Europe (Easy)"
+      "\nAF - Africa (Medium)"
+      "\nAS - Asia (Hard)")
 while True:
-    continent = input("AS/AF/EU : ").upper()
+    continent = input("EU/AF/AS : ").upper()
     if continent == "AS" or continent == "AF" or continent == "EU":
         break
     else:
@@ -207,7 +208,7 @@ while not game_over:
     print(f"You are at {airport[0]['name']}.")
     print(f"You have {battery}km of range in your battery.")
     # pause
-    input("Press Enter to continue.")
+    input("\nPress Enter to continue.")
 
     # goal stuff
     goal = location_goal(game_id, current_airport)
@@ -229,11 +230,12 @@ while not game_over:
                 battery = battery - 50
                 score = score + 10
         elif goal['goal'] == 3:
-            user_choice = yes_or_no("There is a charging point nearby, but this airport seems to be suspicious.\n "
-                                    "Would you like to take the risk,"
-                                    "choose a path and try to get to the charging point?\n "
-                                    "If you choose to escape, "
-                                    "you can't come back to this airport again\nChoose Y/N: ")
+            user_choice = yes_or_no("There is a charging point nearby, but this airport seems to be suspicious. "
+                                    "\nWould you like to take the risk,"
+                                    "\nchoose a path and try to get to the charging point? "
+                                    "\nIf not, then the only way forward is to leave and"
+                                    "\nyou will not be able to come back to this airport again."
+                                    "\nChoose if you want to take the risk Y/N: ")
             if user_choice:
                 path_choice = input('Choose a path 1 - 5: ')
                 while not (path_choice.isdigit() and 1 <= int(path_choice) <= 5):
@@ -252,13 +254,12 @@ while not game_over:
             print("This airport was expecting you. You have been caught!")
             game_over = True
             break
+        input("\nPress Enter to continue.")
 
-# pause
-    input("Press Enter to continue.")
     # if no battery power, game over
     # show airports in range. if none, game over
     airports = airports_in_range(current_airport, all_airports, battery,game_id)
-    print(f"There are {len(airports)} airports in range: ")
+    print(f"\nThere are {len(airports)} airports in range: ")
     if len(airports) == 0:
         print("You have no more airports in range.")
         game_over = True
@@ -272,7 +273,7 @@ while not game_over:
         # ask for destination
         while True:
             airport_codes = [dict['ident'] for dict in airports]
-            dest = input("Enter the ICAO of the destination you would like to go to: ").upper()
+            dest = input("\nEnter the ICAO of the destination you would like to go to: ").upper()
             if dest in airport_codes:
                 break
             else:
