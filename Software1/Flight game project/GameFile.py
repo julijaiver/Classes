@@ -1,7 +1,7 @@
 import random
 from geopy import distance
 import mysql.connector
-import spy_fly_story
+import spyPlaneStory
 
 connection = mysql.connector.connect(
     host='localhost',
@@ -159,11 +159,11 @@ def get_rank():
 
 storyDialog = input('Do you want to read the background story? Y/N: ').upper()
 if storyDialog == 'Y':
-    for line in spy_fly_story.get_story():
+    for line in spyPlaneStory.getStory():
         print(line)
 
 # GAME SETTINGS
-print("When you are ready to start, ")
+print("\nWhen you are ready to start, ")
 player = input("type your name: ")
 # boolean for game over and win
 game_over = False
