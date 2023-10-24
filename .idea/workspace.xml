@@ -5,24 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ac0155f-21e6-4362-afc2-ef7bd089652d" name="Changes" comment="comment">
-      <change afterPath="$PROJECT_DIR$/Software1/GameRamon.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Software2/ObjectClass.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Software2/ObjectClassExercises.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Software2/testExer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Software2/AnotherTesting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Software2/Association.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Software2/AssociationExercises.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flight game project/GameFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/Software1/Flight game project/GameFile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flight game project/functionsForFlight.py" beforeDir="false" afterPath="$PROJECT_DIR$/Software1/Flight game project/functionsForFlight.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flight game project/spyPlaneStory.py" beforeDir="false" afterPath="$PROJECT_DIR$/Software1/Flight game project/spyPlaneStory.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flight_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Software1/Flight_game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Software1/exercises/Functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lists_For.py" beforeDir="false" afterPath="$PROJECT_DIR$/Software1/exercises/Lists_For.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Software1/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tuple.py" beforeDir="false" afterPath="$PROJECT_DIR$/Software1/exercises/Tuple.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/While loops.py" beforeDir="false" afterPath="$PROJECT_DIR$/Software1/exercises/While loops.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conditional_statement.py" beforeDir="false" afterPath="$PROJECT_DIR$/Software1/exercises/conditional_statement.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/databases.py" beforeDir="false" afterPath="$PROJECT_DIR$/Software1/exercises/databases.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first.py" beforeDir="false" afterPath="$PROJECT_DIR$/Software1/first.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_exercises.py" beforeDir="false" afterPath="$PROJECT_DIR$/Software1/test_exercises.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Software2/ObjectClassExercises.py" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/ObjectClassExercises.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Software2/testExer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/testExer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +59,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/julia/desctop",
+    "last_opened_file_path": "C:/Users/julia/desktop",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -82,6 +70,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\julia\desktop" />
       <recent name="C:\Users\julia\desctop" />
       <recent name="C:\Users\julia\PycharmProjects\Python.classes" />
     </key>
@@ -204,7 +193,7 @@
       <workItem from="1696927743731" duration="92000" />
       <workItem from="1696928567016" duration="1311000" />
       <workItem from="1697012112559" duration="5346000" />
-      <workItem from="1698054650953" duration="9709000" />
+      <workItem from="1698054650953" duration="17681000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -470,7 +459,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697012175705</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="comment">
+      <option name="closed" value="true" />
+      <created>1698090729613</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1698090729613</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -505,19 +502,21 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Python_classes$Association.coverage" NAME="Association Coverage Results" MODIFIED="1698146243816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Software2" />
     <SUITE FILE_PATH="coverage/Python_classes$DatabaseForFlight.coverage" NAME="DatabaseForFlight Coverage Results" MODIFIED="1696181134967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flight game project" />
     <SUITE FILE_PATH="coverage/Python_classes$codecs.coverage" NAME="codecs Coverage Results" MODIFIED="1696593395826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/Programs/Python/Python39/Lib" />
     <SUITE FILE_PATH="coverage/Python_classes$Functions.coverage" NAME="Functions Coverage Results" MODIFIED="1694787880328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_classes$databases.coverage" NAME="databases Coverage Results" MODIFIED="1695921186563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_classes$hgjk.coverage" NAME="hgjk Coverage Results" MODIFIED="1694153491846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_classes$conditional_statement.coverage" NAME="conditional_statement Coverage Results" MODIFIED="1698060200811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Python_classes$testExer.coverage" NAME="testExer Coverage Results" MODIFIED="1698090683104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Software2" />
+    <SUITE FILE_PATH="coverage/Python_classes$testExer.coverage" NAME="testExer Coverage Results" MODIFIED="1698148051330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Software2" />
     <SUITE FILE_PATH="coverage/Python_classes$fourth.coverage" NAME="fourth Coverage Results" MODIFIED="1693854182323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_classes$testOne_time.coverage" NAME="testOne@time Coverage Results" MODIFIED="1696595579518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_classes$first.coverage" NAME="first Coverage Results" MODIFIED="1692949303370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_classes$TEST.coverage" NAME="TEST Coverage Results" MODIFIED="1696411056074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_classes$GameRamon.coverage" NAME="GameRamon Coverage Results" MODIFIED="1696591223493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Python_classes$ObjectClassExercises.coverage" NAME="ObjectClassExercises Coverage Results" MODIFIED="1698089275493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Software2" />
+    <SUITE FILE_PATH="coverage/Python_classes$ObjectClassExercises.coverage" NAME="ObjectClassExercises Coverage Results" MODIFIED="1698139980157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Software2" />
+    <SUITE FILE_PATH="coverage/Python_classes$AnotherTesting.coverage" NAME="AnotherTesting Coverage Results" MODIFIED="1698141862956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Software2" />
     <SUITE FILE_PATH="coverage/Python_classes$second.coverage" NAME="second Coverage Results" MODIFIED="1693390565637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_classes$test_exercises.coverage" NAME="test_exercises Coverage Results" MODIFIED="1694154013621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_classes$FunctionsForFlight.coverage" NAME="FunctionsForFlight Coverage Results" MODIFIED="1696361836293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flight game project" />
