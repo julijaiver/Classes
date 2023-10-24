@@ -84,18 +84,18 @@ import random
 
 class Car:
 
-    def __init__(self, reg_num, max_speed):
+    def __init__(self, reg_num, max_speed, current_speed=0, travelled_distance=0):
         self.reg_number = reg_num
         self.max_speed = max_speed
-        self.current_speed = 10
-        self.travelled_distance = 0
+        self.current_speed = current_speed
+        self.travelled_distance = travelled_distance
 
     def accelerate(self, speed_change):
         if 0 <= self.current_speed <= self.max_speed:
             self.current_speed += speed_change
         if self.current_speed > self.max_speed:
             self.current_speed = self.max_speed
-        if self.current_speed < 0:
+        elif self.current_speed < 0:
             self.current_speed = 0
 
     def drive(self, hours):
