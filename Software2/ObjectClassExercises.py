@@ -120,4 +120,11 @@ while not stop:
 
 for car in cars:
     print(f"Car {car.reg_number} Current speed: {car.current_speed} Travelled distance: {car.travelled_distance}")
-
+# Alternatively for table: from prettytable import PrettyTable
+# table = PrettyTable()
+# table.field_names = ["Registration Number", "Current speed", "Travelled distanve"
+#                                                              ""]
+# for car in cars:
+#     table.add_row([car.reg_number, car.current_speed, car.travelled_distance])
+#
+# print(table)
