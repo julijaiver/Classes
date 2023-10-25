@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ac0155f-21e6-4362-afc2-ef7bd089652d" name="Changes" comment="comment">
+      <change afterPath="$PROJECT_DIR$/Software2/InheritanceExercises.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Software2/OOPself.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Software2/AssociationExercises.py" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/AssociationExercises.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Software2/ObjectClassExercises.py" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/ObjectClassExercises.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Software2/testExer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/testExer.py" afterDir="false" />
     </list>
@@ -192,7 +194,7 @@
       <workItem from="1696928567016" duration="1311000" />
       <workItem from="1697012112559" duration="5346000" />
       <workItem from="1698054650953" duration="18100000" />
-      <workItem from="1698166194606" duration="10988000" />
+      <workItem from="1698166194606" duration="16321000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -490,7 +492,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698176753737</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="comment">
+      <option name="closed" value="true" />
+      <created>1698177275203</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1698177275203</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -528,11 +538,12 @@
     <SUITE FILE_PATH="coverage/Python_classes$Association.coverage" NAME="Association Coverage Results" MODIFIED="1698146243816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Software2" />
     <SUITE FILE_PATH="coverage/Python_classes$DatabaseForFlight.coverage" NAME="DatabaseForFlight Coverage Results" MODIFIED="1696181134967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flight game project" />
     <SUITE FILE_PATH="coverage/Python_classes$codecs.coverage" NAME="codecs Coverage Results" MODIFIED="1696593395826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/Programs/Python/Python39/Lib" />
+    <SUITE FILE_PATH="coverage/Python_classes$InheritanceExercises.coverage" NAME="InheritanceExercises Coverage Results" MODIFIED="1698218036854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Software2" />
     <SUITE FILE_PATH="coverage/Python_classes$Functions.coverage" NAME="Functions Coverage Results" MODIFIED="1694787880328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_classes$databases.coverage" NAME="databases Coverage Results" MODIFIED="1695921186563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_classes$hgjk.coverage" NAME="hgjk Coverage Results" MODIFIED="1694153491846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_classes$conditional_statement.coverage" NAME="conditional_statement Coverage Results" MODIFIED="1698166203124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Python_classes$testExer.coverage" NAME="testExer Coverage Results" MODIFIED="1698177006494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Software2" />
+    <SUITE FILE_PATH="coverage/Python_classes$testExer.coverage" NAME="testExer Coverage Results" MODIFIED="1698218328161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Software2" />
     <SUITE FILE_PATH="coverage/Python_classes$fourth.coverage" NAME="fourth Coverage Results" MODIFIED="1693854182323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_classes$testOne_time.coverage" NAME="testOne@time Coverage Results" MODIFIED="1696595579518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_classes$first.coverage" NAME="first Coverage Results" MODIFIED="1692949303370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

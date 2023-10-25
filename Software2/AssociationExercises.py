@@ -59,7 +59,7 @@ class Elevator:
 
 class Building:
     def __init__(self, bottom_floor, top_floor, num_of_elevators):
-        self.elevators = [Elevator(top_floor, bottom_floor) for i in range(num_of_elevators)]
+        self.elevators = [Elevator(top_floor, bottom_floor) in range(num_of_elevators)]
         self.bottom_floor = bottom_floor
         self.top_floor = top_floor
 
