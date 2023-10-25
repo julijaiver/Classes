@@ -75,3 +75,74 @@ class Building:
         for elevator in self.elevators:
             elevator.current_floor = self.bottom_floor
         print(f"All elevators are on floor {self.bottom_floor}")
+
+# Exercise 4
+
+import random
+from prettytable import PrettyTable
+
+
+class Car:
+
+    def __init__(self, reg_num, max_speed, current_speed=0, travelled_distance=0):
+        self.reg_number = reg_num
+        self.max_speed = max_speed
+        self.current_speed = current_speed
+        self.travelled_distance = travelled_distance
+
+    def accelerate(self, speed_change):
+        if 0 <= self.current_speed <= self.max_speed:
+            self.current_speed += speed_change
+        if self.current_speed > self.max_speed:
+            self.current_speed = self.max_speed
+        elif self.current_speed < 0:
+            self.current_speed = 0
+
+    def drive(self, hours):
+        self.travelled_distance += (self.current_speed * hours)
+
+
+class Race:
+    def __init__(self, name, distance_km, cars):
+        self.name = name
+        self.distance_km = distance_km
+        self.cars = []
+
+        for i in range(cars):
+            reg_num = f"ABC-{i + 1}"
+            max_speed = random.randint(100, 200)
+            car = Car(reg_num, max_speed)
+            self.cars.append(car)
+
+
+    def hour_passes(self):
+        for car in self.cars:
+            car.accelerate(random.randint(-10, 15))
+            car.drive(1)
+
+    def race_finished(self):
+        for car in self.cars:
+            if car.travelled_distance >= self.distance_km:
+                return True
+        return False
+
+    def print_status(self):
+        table = PrettyTable()
+        table.field_names = ["Registration Number", "Current speed", "Travelled distance"]
+        for car in self.cars:
+            table.add_row([car.reg_number, car.current_speed, car.travelled_distance])
+        print(table)
+
+
+new_race = Race("Grand Demolition Derby", 8000, 10)
+stop = False
+hours_passed = 0
+
+while not new_race.race_finished():
+    new_race.hour_passes()
+    hours_passed += 1
+
+    if hours_passed % 10 == 0:
+        new_race.print_status()
+
+new_race.print_status()
