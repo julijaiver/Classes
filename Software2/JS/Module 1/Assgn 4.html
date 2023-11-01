@@ -2,9 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Hogwarts sorting</title>
 </head>
 <body>
+<h2>Hogwarts School of Witchcraft and Wizardry</h2>
+<p id="target"></p>
+<script>
+    'use strict';
+    const name = prompt('Enter your name')
+    const drawnValue = Math.floor(Math.random()*4) + 1;
+    let assigned;
+    switch (drawnValue) {
+        case 1:
+            assigned = 'Gryffindor'
+            break;
+        case 2:
+            assigned = 'Slytherin'
+            break;
+        case 3:
+            assigned = 'Hufflepuff'
+            break;
+        case 4:
+            assigned = 'Ravenclaw'
+            break;
+    }
+    document.querySelector('#target').innerHTML = name + ', you are NameN' + assigned;
 
+
+</script>
 </body>
 </html>
