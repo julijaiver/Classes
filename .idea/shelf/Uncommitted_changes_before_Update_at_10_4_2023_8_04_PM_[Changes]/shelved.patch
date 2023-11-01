@@ -1,0 +1,288 @@
+Index: first.py
+===================================================================
+diff --git a/first.py b/first.py
+deleted file mode 100644
+--- a/first.py	(revision 78aed1e9d9cd7a505d7bb7c35b90115c4db45a1e)
++++ /dev/null	(revision 78aed1e9d9cd7a505d7bb7c35b90115c4db45a1e)
+@@ -1,28 +0,0 @@
+-intVar = 20
+-floatVar = 3.2
+-strVar = "Software 1"
+-
+-print(intVar)
+-print(floatVar)
+-print(strVar)
+-
+-# Casting the value from float to int
+-result = int(intVar + floatVar)
+-print(result)
+-
+-shareOfLoan = 800.65 / 3
+-print(shareOfLoan)
+-intShareOfLoan = int(shareOfLoan)
+-print(intShareOfLoan)
+-
+-num1 = int(input("Enter some value:\n "))
+-num2 = int(input("Enter a second value:\n "))
+-result = num1 + num2
+-print('The result is: \t ', result)
+-
+-name = input("What's your name: ")
+-age = input("What's your age: ")
+-print("Name: ", name, "Age: ", age)
+-print(name, age)
+-outPut = f"Name: {name} Age: {age}"
+-print(outPut)
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"7ac0155f-21e6-4362-afc2-ef7bd089652d\" name=\"Changes\" comment=\"initial\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/databases.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/databases.py\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;julijaiver&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">\r\n    <option name=\"selectedUrlAndAccountId\">\r\n      <UrlAndAccount>\r\n        <option name=\"accountId\" value=\"a28663e4-5665-4327-a328-4d2e97e99c69\" />\r\n        <option name=\"url\" value=\"https://github.com/julijaiver/Python.classes.git\" />\r\n      </UrlAndAccount>\r\n    </option>\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 5\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2UNwijPgryw32ucflSbCU1U8Ctv\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;main&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;C:/Users/julia/PycharmProjects/Python.classes&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"conditional_statement\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Python.classes\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"C:\\Users\\julia\\PycharmProjects\\Python.classes\\conditional_statement.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"hgjk\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Python.classes\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/hgjk.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"variables\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Python.classes\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"C:\\Users\\julia\\PycharmProjects\\Python.classes\\variables.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Python.conditional_statement\" />\r\n        <item itemvalue=\"Python.hgjk\" />\r\n        <item itemvalue=\"Python.variables\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"7ac0155f-21e6-4362-afc2-ef7bd089652d\" name=\"Changes\" comment=\"\" />\r\n      <created>1692793474622</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1692793474622</updated>\r\n      <workItem from=\"1692793475680\" duration=\"4000\" />\r\n      <workItem from=\"1692793656642\" duration=\"208000\" />\r\n      <workItem from=\"1692943279645\" duration=\"7973000\" />\r\n      <workItem from=\"1692951773686\" duration=\"3792000\" />\r\n      <workItem from=\"1693387997805\" duration=\"1601000\" />\r\n      <workItem from=\"1693389629916\" duration=\"8295000\" />\r\n      <workItem from=\"1693413066676\" duration=\"2370000\" />\r\n      <workItem from=\"1693503779271\" duration=\"698000\" />\r\n      <workItem from=\"1693760466612\" duration=\"9594000\" />\r\n      <workItem from=\"1693854168191\" duration=\"318000\" />\r\n      <workItem from=\"1694106881914\" duration=\"1339000\" />\r\n      <workItem from=\"1694153447152\" duration=\"44303000\" />\r\n      <workItem from=\"1694788207110\" duration=\"33778000\" />\r\n      <workItem from=\"1695190115100\" duration=\"602000\" />\r\n      <workItem from=\"1695192265104\" duration=\"9007000\" />\r\n      <workItem from=\"1695276941171\" duration=\"21189000\" />\r\n      <workItem from=\"1695376341496\" duration=\"250000\" />\r\n      <workItem from=\"1695376601756\" duration=\"141000\" />\r\n      <workItem from=\"1695376751946\" duration=\"114000\" />\r\n      <workItem from=\"1695376874785\" duration=\"3702000\" />\r\n      <workItem from=\"1695380602021\" duration=\"1650000\" />\r\n      <workItem from=\"1695391276490\" duration=\"1105000\" />\r\n      <workItem from=\"1695816759551\" duration=\"1264000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Initial commit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1692950345836</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1692950345836</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Initial commit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1692950354014</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1692950354014</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"update\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1693388492418</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1693388492418</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"update\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1693389612866</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1693389612866</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"update\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1693394969180</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1693394969180</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"initial\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1693398380693</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1693398380693</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"initial\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1693501476931</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1693501476931</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"initial\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1693852025929</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1693852025929</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"initial\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1694159095502</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1694159095502</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"comment\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1694165272989</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1694165272989</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"comment\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1694166758992</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1694166758992</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"comment\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1694409473365</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1694409473365</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00013\" summary=\"comment\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1694410347193</created>\r\n      <option name=\"number\" value=\"00013\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1694410347193</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00014\" summary=\"comment\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1694423321997</created>\r\n      <option name=\"number\" value=\"00014\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00014\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1694423321997</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00015\" summary=\"comment\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1694754570333</created>\r\n      <option name=\"number\" value=\"00015\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00015\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1694754570333</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00016\" summary=\"comment\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1694754619243</created>\r\n      <option name=\"number\" value=\"00016\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00016\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1694754619243</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00017\" summary=\"comment\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1694759691242</created>\r\n      <option name=\"number\" value=\"00017\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00017\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1694759691242</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00018\" summary=\"comment\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1694764022712</created>\r\n      <option name=\"number\" value=\"00018\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00018\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1694764022712</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00019\" summary=\"comment\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1694766558413</created>\r\n      <option name=\"number\" value=\"00019\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00019\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1694766558413</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00020\" summary=\"comment\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1694767712751</created>\r\n      <option name=\"number\" value=\"00020\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00020\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1694767712751</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00021\" summary=\"comment\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1694769027032</created>\r\n      <option name=\"number\" value=\"00021\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00021\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1694769027032</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00022\" summary=\"comment\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1694786471708</created>\r\n      <option name=\"number\" value=\"00022\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00022\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1694786471708</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00023\" summary=\"initial\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1694789141619</created>\r\n      <option name=\"number\" value=\"00023\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00023\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1694789141619</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00024\" summary=\"comment\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1694869182702</created>\r\n      <option name=\"number\" value=\"00024\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00024\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1694869182702</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00025\" summary=\"comment\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1694872030642</created>\r\n      <option name=\"number\" value=\"00025\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00025\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1694872030642</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00026\" summary=\"initial\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1694972088832</created>\r\n      <option name=\"number\" value=\"00026\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00026\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1694972088832</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00027\" summary=\"initial\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1695817101451</created>\r\n      <option name=\"number\" value=\"00027\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00027\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1695817101451</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"28\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Initial commit\" />\r\n    <MESSAGE value=\"update\" />\r\n    <MESSAGE value=\"comment\" />\r\n    <MESSAGE value=\"initial\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"initial\" />\r\n  </component>\r\n  <component name=\"com.intellij.coverage.CoverageDataManagerImpl\">\r\n    <SUITE FILE_PATH=\"coverage/Python_classes$conditional_statement.coverage\" NAME=\"conditional_statement Coverage Results\" MODIFIED=\"1695920991046\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$\" />\r\n    <SUITE FILE_PATH=\"coverage/Python_classes$fourth.coverage\" NAME=\"fourth Coverage Results\" MODIFIED=\"1693854182323\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$\" />\r\n    <SUITE FILE_PATH=\"coverage/Python_classes$testOne_time.coverage\" NAME=\"testOne@time Coverage Results\" MODIFIED=\"1695413250922\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$\" />\r\n    <SUITE FILE_PATH=\"coverage/Python_classes$first.coverage\" NAME=\"first Coverage Results\" MODIFIED=\"1692949303370\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$\" />\r\n    <SUITE FILE_PATH=\"coverage/Python_classes$TEST.coverage\" NAME=\"TEST Coverage Results\" MODIFIED=\"1695401479686\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$\" />\r\n    <SUITE FILE_PATH=\"coverage/Python_classes$second.coverage\" NAME=\"second Coverage Results\" MODIFIED=\"1693390565637\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$\" />\r\n    <SUITE FILE_PATH=\"coverage/Python_classes$test_exercises.coverage\" NAME=\"test_exercises Coverage Results\" MODIFIED=\"1694154013621\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$\" />\r\n    <SUITE FILE_PATH=\"coverage/Python_classes$Functions.coverage\" NAME=\"Functions Coverage Results\" MODIFIED=\"1694787880328\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$\" />\r\n    <SUITE FILE_PATH=\"coverage/Python_classes$databases.coverage\" NAME=\"databases Coverage Results\" MODIFIED=\"1695920995928\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$\" />\r\n    <SUITE FILE_PATH=\"coverage/Python_classes$test.coverage\" NAME=\"test Coverage Results\" MODIFIED=\"1693501428073\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$\" />\r\n    <SUITE FILE_PATH=\"coverage/Python_classes$third.coverage\" NAME=\"third Coverage Results\" MODIFIED=\"1693501379957\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$\" />\r\n    <SUITE FILE_PATH=\"coverage/Python_classes$hgjk.coverage\" NAME=\"hgjk Coverage Results\" MODIFIED=\"1694153491846\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 78aed1e9d9cd7a505d7bb7c35b90115c4db45a1e)
++++ b/.idea/workspace.xml	(date 1696439044107)
+@@ -1,12 +1,25 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="AnalysisUIOptions">
++    <option name="ANALYZE_INJECTED_CODE" value="false" />
++  </component>
+   <component name="AutoImportSettings">
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="7ac0155f-21e6-4362-afc2-ef7bd089652d" name="Changes" comment="initial">
++    <list default="true" id="7ac0155f-21e6-4362-afc2-ef7bd089652d" name="Changes" comment="comment">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/databases.py" beforeDir="false" afterPath="$PROJECT_DIR$/databases.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Flight game project/FunctionsForFlight.py" beforeDir="false" afterPath="$PROJECT_DIR$/Flight game project/FunctionsForFlight.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Flight_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Flight game project/Flight_game.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python exercises soft1/Functions.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Lists_For.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python exercises soft1/Lists_For.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Tuple.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python exercises soft1/Tuple.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/While loops.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python exercises soft1/While loops.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/conditional_statement.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python exercises soft1/conditional_statement.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/databases.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python exercises soft1/databases.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/first.py" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/test_exercises.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python exercises soft1/test_exercises.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/variables.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python exercises soft1/variables.py" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -60,10 +73,17 @@
+     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
++    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+   }
+ }</component>
++  <component name="RecentsManager">
++    <key name="MoveFile.RECENT_KEYS">
++      <recent name="C:\Users\julia\PycharmProjects\Python.classes\Python exercises soft1" />
++      <recent name="C:\Users\julia\PycharmProjects\Python.classes\Flight game project" />
++    </key>
++  </component>
+   <component name="RunManager">
+     <configuration name="conditional_statement" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+       <module name="Python.classes" />
+@@ -78,7 +98,7 @@
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+-      <option name="SCRIPT_NAME" value="C:\Users\julia\PycharmProjects\Python.classes\conditional_statement.py" />
++      <option name="SCRIPT_NAME" value="C:\Users\julia\PycharmProjects\Python.classes\Python exercises soft1\conditional_statement.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -122,7 +142,7 @@
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+-      <option name="SCRIPT_NAME" value="C:\Users\julia\PycharmProjects\Python.classes\variables.py" />
++      <option name="SCRIPT_NAME" value="C:\Users\julia\PycharmProjects\Python.classes\Python exercises soft1\variables.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -169,7 +189,11 @@
+       <workItem from="1695376874785" duration="3702000" />
+       <workItem from="1695380602021" duration="1650000" />
+       <workItem from="1695391276490" duration="1105000" />
+-      <workItem from="1695816759551" duration="1264000" />
++      <workItem from="1695816759551" duration="8136000" />
++      <workItem from="1695981492083" duration="1308000" />
++      <workItem from="1696179206073" duration="2234000" />
++      <workItem from="1696181689710" duration="5625000" />
++      <workItem from="1696225623774" duration="26771000" />
+     </task>
+     <task id="LOCAL-00001" summary="Initial commit">
+       <option name="closed" value="true" />
+@@ -387,7 +411,87 @@
+       <option name="project" value="LOCAL" />
+       <updated>1695817101451</updated>
+     </task>
+-    <option name="localTasksCounter" value="28" />
++    <task id="LOCAL-00028" summary="comment">
++      <option name="closed" value="true" />
++      <created>1695921211237</created>
++      <option name="number" value="00028" />
++      <option name="presentableId" value="LOCAL-00028" />
++      <option name="project" value="LOCAL" />
++      <updated>1695921211237</updated>
++    </task>
++    <task id="LOCAL-00029" summary="comment">
++      <option name="closed" value="true" />
++      <created>1695924264424</created>
++      <option name="number" value="00029" />
++      <option name="presentableId" value="LOCAL-00029" />
++      <option name="project" value="LOCAL" />
++      <updated>1695924264424</updated>
++    </task>
++    <task id="LOCAL-00030" summary="comment">
++      <option name="closed" value="true" />
++      <created>1695926105814</created>
++      <option name="number" value="00030" />
++      <option name="presentableId" value="LOCAL-00030" />
++      <option name="project" value="LOCAL" />
++      <updated>1695926105814</updated>
++    </task>
++    <task id="LOCAL-00031" summary="comment">
++      <option name="closed" value="true" />
++      <created>1696189275634</created>
++      <option name="number" value="00031" />
++      <option name="presentableId" value="LOCAL-00031" />
++      <option name="project" value="LOCAL" />
++      <updated>1696189275634</updated>
++    </task>
++    <task id="LOCAL-00032" summary="comment">
++      <option name="closed" value="true" />
++      <created>1696355105489</created>
++      <option name="number" value="00032" />
++      <option name="presentableId" value="LOCAL-00032" />
++      <option name="project" value="LOCAL" />
++      <updated>1696355105489</updated>
++    </task>
++    <task id="LOCAL-00033" summary="comment">
++      <option name="closed" value="true" />
++      <created>1696355133146</created>
++      <option name="number" value="00033" />
++      <option name="presentableId" value="LOCAL-00033" />
++      <option name="project" value="LOCAL" />
++      <updated>1696355133146</updated>
++    </task>
++    <task id="LOCAL-00034" summary="comment">
++      <option name="closed" value="true" />
++      <created>1696399875778</created>
++      <option name="number" value="00034" />
++      <option name="presentableId" value="LOCAL-00034" />
++      <option name="project" value="LOCAL" />
++      <updated>1696399875778</updated>
++    </task>
++    <task id="LOCAL-00035" summary="comment">
++      <option name="closed" value="true" />
++      <created>1696409618228</created>
++      <option name="number" value="00035" />
++      <option name="presentableId" value="LOCAL-00035" />
++      <option name="project" value="LOCAL" />
++      <updated>1696409618228</updated>
++    </task>
++    <task id="LOCAL-00036" summary="comment">
++      <option name="closed" value="true" />
++      <created>1696413809048</created>
++      <option name="number" value="00036" />
++      <option name="presentableId" value="LOCAL-00036" />
++      <option name="project" value="LOCAL" />
++      <updated>1696413809048</updated>
++    </task>
++    <task id="LOCAL-00037" summary="comment">
++      <option name="closed" value="true" />
++      <created>1696417280038</created>
++      <option name="number" value="00037" />
++      <option name="presentableId" value="LOCAL-00037" />
++      <option name="project" value="LOCAL" />
++      <updated>1696417280038</updated>
++    </task>
++    <option name="localTasksCounter" value="38" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -407,22 +511,39 @@
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="Initial commit" />
+     <MESSAGE value="update" />
++    <MESSAGE value="initial" />
+     <MESSAGE value="comment" />
+-    <MESSAGE value="initial" />
+-    <option name="LAST_COMMIT_MESSAGE" value="initial" />
++    <option name="LAST_COMMIT_MESSAGE" value="comment" />
++  </component>
++  <component name="XDebuggerManager">
++    <breakpoint-manager>
++      <breakpoints>
++        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
++          <url>file://$PROJECT_DIR$/TEST.py</url>
++          <option name="timeStamp" value="1" />
++        </line-breakpoint>
++        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
++          <url>file://$PROJECT_DIR$/testOne@time.py</url>
++          <option name="timeStamp" value="2" />
++        </line-breakpoint>
++      </breakpoints>
++    </breakpoint-manager>
+   </component>
+   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+-    <SUITE FILE_PATH="coverage/Python_classes$conditional_statement.coverage" NAME="conditional_statement Coverage Results" MODIFIED="1695920991046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
++    <SUITE FILE_PATH="coverage/Python_classes$DatabaseForFlight.coverage" NAME="DatabaseForFlight Coverage Results" MODIFIED="1696181134967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flight game project" />
++    <SUITE FILE_PATH="coverage/Python_classes$Functions.coverage" NAME="Functions Coverage Results" MODIFIED="1694787880328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
++    <SUITE FILE_PATH="coverage/Python_classes$databases.coverage" NAME="databases Coverage Results" MODIFIED="1695921186563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
++    <SUITE FILE_PATH="coverage/Python_classes$hgjk.coverage" NAME="hgjk Coverage Results" MODIFIED="1694153491846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
++    <SUITE FILE_PATH="coverage/Python_classes$conditional_statement.coverage" NAME="conditional_statement Coverage Results" MODIFIED="1696361726520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+     <SUITE FILE_PATH="coverage/Python_classes$fourth.coverage" NAME="fourth Coverage Results" MODIFIED="1693854182323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+-    <SUITE FILE_PATH="coverage/Python_classes$testOne_time.coverage" NAME="testOne@time Coverage Results" MODIFIED="1695413250922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
++    <SUITE FILE_PATH="coverage/Python_classes$testOne_time.coverage" NAME="testOne@time Coverage Results" MODIFIED="1696438172110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+     <SUITE FILE_PATH="coverage/Python_classes$first.coverage" NAME="first Coverage Results" MODIFIED="1692949303370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+-    <SUITE FILE_PATH="coverage/Python_classes$TEST.coverage" NAME="TEST Coverage Results" MODIFIED="1695401479686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
++    <SUITE FILE_PATH="coverage/Python_classes$TEST.coverage" NAME="TEST Coverage Results" MODIFIED="1696411056074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+     <SUITE FILE_PATH="coverage/Python_classes$second.coverage" NAME="second Coverage Results" MODIFIED="1693390565637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+     <SUITE FILE_PATH="coverage/Python_classes$test_exercises.coverage" NAME="test_exercises Coverage Results" MODIFIED="1694154013621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+-    <SUITE FILE_PATH="coverage/Python_classes$Functions.coverage" NAME="Functions Coverage Results" MODIFIED="1694787880328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+-    <SUITE FILE_PATH="coverage/Python_classes$databases.coverage" NAME="databases Coverage Results" MODIFIED="1695920995928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
++    <SUITE FILE_PATH="coverage/Python_classes$FunctionsForFlight.coverage" NAME="FunctionsForFlight Coverage Results" MODIFIED="1696361836293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flight game project" />
++    <SUITE FILE_PATH="coverage/Python_classes$testForGame.coverage" NAME="testForGame Coverage Results" MODIFIED="1696437629238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+     <SUITE FILE_PATH="coverage/Python_classes$test.coverage" NAME="test Coverage Results" MODIFIED="1693501428073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+     <SUITE FILE_PATH="coverage/Python_classes$third.coverage" NAME="third Coverage Results" MODIFIED="1693501379957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+-    <SUITE FILE_PATH="coverage/Python_classes$hgjk.coverage" NAME="hgjk Coverage Results" MODIFIED="1694153491846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+   </component>
+ </project>
+\ No newline at end of file
+diff --git a/variables.py b/Python exercises soft1/variables.py
+rename from variables.py
+rename to Python exercises soft1/variables.py
+diff --git a/Functions.py b/Python exercises soft1/Functions.py
+rename from Functions.py
+rename to Python exercises soft1/Functions.py
+diff --git a/databases.py b/Python exercises soft1/databases.py
+rename from databases.py
+rename to Python exercises soft1/databases.py
+diff --git a/Lists_For.py b/Python exercises soft1/Lists_For.py
+rename from Lists_For.py
+rename to Python exercises soft1/Lists_For.py
+diff --git a/conditional_statement.py b/Python exercises soft1/conditional_statement.py
+rename from conditional_statement.py
+rename to Python exercises soft1/conditional_statement.py
+diff --git a/test_exercises.py b/Python exercises soft1/test_exercises.py
+rename from test_exercises.py
+rename to Python exercises soft1/test_exercises.py
+diff --git a/Flight_game.py b/Flight game project/Flight_game.py
+rename from Flight_game.py
+rename to Flight game project/Flight_game.py
+diff --git a/While loops.py b/Python exercises soft1/While loops.py
+rename from While loops.py
+rename to Python exercises soft1/While loops.py
+diff --git a/Tuple.py b/Python exercises soft1/Tuple.py
+rename from Tuple.py
+rename to Python exercises soft1/Tuple.py
