@@ -250,6 +250,7 @@ music_library.add_song("Hi again", "JLO", "1:59")
 music_library.display_songs()
 music_library.find_songs_by_artist("Britney Spears")
 
+
 # ChatG company class
 class Employee:
     def __init__(self, name, position, salary):
@@ -332,3 +333,129 @@ new_school.hire_teacher("Sun Saulin", "English language")
 new_school.display_students()
 new_school.display_teachers()
 
+# Amir's class association exercise
+class Student:
+    def __init__(self, id, name):
+        self.id = id
+        self.name = name
+        self.enrollments = []
+
+    def add_course(self, course):
+        self.enrolled.append(course)
+
+
+class Course:
+    def __init__(self, code, name, instructor):
+        self.code = code
+        self.name = name
+        self.instructor = instructor
+        self.enrollments = []
+
+    def add_student(self, student):
+        self.students.append(student)
+
+
+class Enrollment:
+    def __init__(self, student, course, progress=0):
+        self.student = student
+        self.course = course
+        self.progress = progress
+
+
+def enroll(student, course):
+    enrollment = Enrollment(student, course)
+    student.enrollments.append(enrollment)
+    course.enrollments.append(enrollment)
+
+
+def display_enrollment(self):
+    print(f"Student name: {self.student.name}")
+    print("Enrollments")
+    for course in self.student.enrolled:
+        print(f"Course name: {course.name}")
+        print(f"Course code: {course.code}")
+        print(f"Progress: {self.get_course_progress(course)}%")
+
+
+student1 = Student(20365, "Timo")
+student2 = Student(57862, "Anna")
+course1 = Course(105, "Physics", "Bob")
+course2 = Course(201, "Programming", "Amir")
+course3 = Course(106, "English language", "Sonja")
+
+student2.add_course(course2)
+student2.add_course(course1)
+
+# Amir exercise
+
+class Hobby:
+    def __init__(self, name, description, equipment):
+        self.name = name
+        self.description = description
+        self.equipment = equipment
+        self.interested = []
+
+
+class Event:
+    def __init__(self, name, date, location):
+        self.name = name
+        self.date = date
+        self.location = location
+        self.participants = []
+
+
+class FinnishCitizen:
+    def __init__(self, name, age, city):
+        self.name = name
+        self.age = age
+        self.city = city
+        self.hobbies = []
+        self.events_attending = []
+        self.social_connections = []
+
+    def add_hobby(self, name, description, equipment):
+        hobby = Hobby(name, description, equipment)
+        self.hobbies.append(hobby)
+
+    def remove_hobby(self, name):
+        for hobby in self.hobbies:
+            if hobby.name == name:
+                self.hobbies.remove(hobby)
+
+    def participate_in_event(self, name, date, location):
+        event = Event(name, date, location)
+        self.events_attending.append(event)
+
+    def cancel_event(self, name):
+        for event in self.events_attending:
+            if event.name == name:
+                self.events_attending.remove(event)
+
+    def add_connection(self, citizen):
+        self.social_connections.append(citizen)
+
+    def remove_connection(self, name):
+        for connection in self.social_connections:
+            if connection.name == name:
+                self.social_connections.remove(connection)
+
+    def get_information(self):
+        print(f"Citizen:\nNAME: {self.name} AGE: {self.age} CITY: {self.city}")
+        print("Hobbies:")
+        for hobby in self.hobbies:
+            print(hobby.name)
+        print("Events attending: ")
+        for event in self.events_attending:
+            print(event.name)
+        print("Social connections: ")
+        for connection in self.social_connections:
+            print(connection.name)
+
+
+
+citizen1 = FinnishCitizen("Gaga Gigi", 25, "Helsinki")
+citizen1.add_hobby("skiing", "skiing in Espoo", "skis")
+citizen1.participate_in_event("Concert", "11/11/2023", "Helsinki")
+citizen2 = FinnishCitizen("Dada Didi", 60, "Tampere")
+citizen1.add_connection(citizen2)
+citizen1.get_information()
