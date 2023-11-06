@@ -1,0 +1,51 @@
+.container {
+    width: 60%;
+    margin: auto;
+}
+
+html {
+    font-family: Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+}
+
+h1 {
+    background-color: indianred;
+    width: 40%;
+    height: 3rem;
+    margin: 0;
+}
+
+nav {
+    width: 60%;
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    background-color: gold;
+    margin: 0;
+}
+
+li a {
+    background-color: teal;
+    color: darkslategray;
+    width: 10rem;
+    height: 3rem;
+    display: block;
+    text-align: center;
+    line-height: 3rem;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #008096;
+}
+
+img {
+    border-radius: 8px 8px 0 0;
+}
