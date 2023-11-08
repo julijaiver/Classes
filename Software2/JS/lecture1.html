@@ -5,6 +5,53 @@
   <title>Title</title>
 </head>
 <body>
+<p>This is a test</p>
+<h1>Hello</h1>
 
+<button onclick="changeColor()">Change color</button>
+
+<script>
+  //output in html. Use of html tags in JavaScr
+    function circleArea(radius) {
+      const pi = 3.14;
+      return (pi * radius ** 2).toFixed(2);
+    }
+
+    let radius = parseFloat(prompt("Enter circle radius"))
+    document.write("Area of the circle is " + circleArea(radius))
+
+
+  function changeColor() {
+    let text = document.querySelector("h1");
+    text.style.color="blue";
+  }
+
+  let userName = prompt("What is your name?");
+  let userAge = parseFloat(prompt("What is your age?"));
+
+  document.write("Hello " + userName + ". ");
+  if (userAge<18) {
+    document.write("Do your parents know you're online? ");
+    }
+
+  let num1 = prompt("Provide a number");
+  let num2 = prompt("Provide a second number");
+  num1 = parseFloat(num1);
+  num2 = parseFloat(num2);
+  const numSum = num1 + num2;
+
+  document.write("The sum of numbers is " + numSum);
+
+  document.write("<p>How are <br>" +
+                 "<i>you</i>?</p>");
+
+  let x, y;
+  x=1024;
+  y=x; x="foobar";
+  document.write("<p>y= " + y + "</p>");
+  document.write("<p>x= " + x + "</p>");
+
+
+</script>
 </body>
 </html>

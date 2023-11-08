@@ -5,18 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ac0155f-21e6-4362-afc2-ef7bd089652d" name="Changes" comment="comment">
+      <change afterPath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/Logo2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Software2/JS/lecture2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software2/Association.py" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/Python/Association.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software2/AssociationExercises.py" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/Python/AssociationExercises.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/AssgnStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/AssgnStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/IMG_4736 (1).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/IMG_4736 (1).jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/Main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/MainPImg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/MainPImg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software2/InheritanceExercises.py" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/Python/InheritanceExercises.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software2/OOPself.py" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/Python/OOPself.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software2/ObjectClass.py" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/Python/ObjectClass.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software2/ObjectClassExercises.py" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/Python/ObjectClassExercises.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software2/testExer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/Python/testExer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Software2/JS/Module 1/Assgn 4.html" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/JS/Module 1/Assgn 4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Software2/JS/lecture1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/JS/lecture1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +75,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/julia/Desktop/METROPOLIA/Software 2/HTML-CSS-JS/Assignment&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/julia/PycharmProjects/Classes&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -98,69 +93,14 @@
       <recent name="C:\Users\julia\PycharmProjects\Python.classes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\julia\PycharmProjects\Python.classes\Software2\HTML-CSS-JS\Assignment" />
       <recent name="C:\Users\julia\PycharmProjects\Python.classes\Software2\Python" />
       <recent name="C:\Users\julia\PycharmProjects\Python.classes\Software2" />
       <recent name="C:\Users\julia\Desktop\METROPOLIA\Software 2\HTML-CSS-JS\Assignment" />
       <recent name="C:\Users\julia\Desktop\METROPOLIA\Software 2\HTML-CSS-JS\CSS1" />
-      <recent name="C:\Users\julia\Desktop\METROPOLIA\Software 2\HTML-CSS-JS" />
     </key>
   </component>
   <component name="RunManager" selected="Python.conditional_statement">
-    <configuration default="true" type="DjangoTestsConfigurationType">
-      <module name="Classes" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="" />
-      <option name="SETTINGS_FILE" value="" />
-      <option name="CUSTOM_SETTINGS" value="false" />
-      <option name="USE_OPTIONS" value="false" />
-      <option name="OPTIONS" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
-      <module name="Classes" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <module name="Classes" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="conditional_statement" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Classes" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -227,99 +167,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="Python.FlaskServer">
-      <module name="Classes" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <module name="Classes" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="docs" factoryName="Docutils task">
-      <module name="Classes" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="docutils_input_file" value="" />
-      <option name="docutils_output_file" value="" />
-      <option name="docutils_params" value="" />
-      <option name="docutils_task" value="" />
-      <option name="docutils_open_in_browser" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="docs" factoryName="Sphinx task">
-      <module name="Classes" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="docutils_input_file" value="" />
-      <option name="docutils_output_file" value="" />
-      <option name="docutils_params" value="" />
-      <option name="docutils_task" value="" />
-      <option name="docutils_open_in_browser" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Autodetect">
-      <module name="Classes" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
-      <module name="Classes" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.conditional_statement" />
@@ -369,7 +216,8 @@
       <workItem from="1698788320388" duration="278000" />
       <workItem from="1698823314193" duration="45940000" />
       <workItem from="1699206037861" duration="4306000" />
-      <workItem from="1699265875007" duration="3571000" />
+      <workItem from="1699265875007" duration="10605000" />
+      <workItem from="1699426509081" duration="6571000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -747,7 +595,23 @@
       <option name="project" value="LOCAL" />
       <updated>1699266152776</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="comment">
+      <option name="closed" value="true" />
+      <created>1699269575639</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1699269575639</updated>
+    </task>
+    <task id="LOCAL-00049" summary="comment">
+      <option name="closed" value="true" />
+      <created>1699269779539</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1699269779539</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
