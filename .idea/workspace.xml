@@ -5,13 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ac0155f-21e6-4362-afc2-ef7bd089652d" name="Changes" comment="comment">
-      <change afterPath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/Logo2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Software2/JS/lecture2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/Main2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/img/favicon.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/AssgnStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/AssgnStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/Contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/IMG_4736 (1).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/img/IMG_4736 (1).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/Julija_Ivaskeviciute.png" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/img/Julija_Ivaskeviciute.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/Logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/img/Logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/Logo2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/img/Logo2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/Main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software2/JS/Module 1/Assgn 4.html" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/JS/Module 1/Assgn 4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software2/JS/lecture1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/JS/lecture1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/MainPImg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/img/MainPImg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/MainPImg.png" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/img/MainPImg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/Prod1.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/img/Prod1.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/Prod2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/img/Prod2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/Prod3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/img/Prod3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/ProdMain.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/img/ProdMain.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/Products.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/jk.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/img/jk.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Software2/JS/lecture2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/JS/lecture2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,11 +105,11 @@
       <recent name="C:\Users\julia\PycharmProjects\Python.classes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\julia\PycharmProjects\Python.classes\Software2\HTML-CSS-JS\Assignment\img" />
       <recent name="C:\Users\julia\PycharmProjects\Python.classes\Software2\HTML-CSS-JS\Assignment" />
       <recent name="C:\Users\julia\PycharmProjects\Python.classes\Software2\Python" />
       <recent name="C:\Users\julia\PycharmProjects\Python.classes\Software2" />
       <recent name="C:\Users\julia\Desktop\METROPOLIA\Software 2\HTML-CSS-JS\Assignment" />
-      <recent name="C:\Users\julia\Desktop\METROPOLIA\Software 2\HTML-CSS-JS\CSS1" />
     </key>
   </component>
   <component name="RunManager" selected="Python.conditional_statement">
@@ -217,15 +229,7 @@
       <workItem from="1698823314193" duration="45940000" />
       <workItem from="1699206037861" duration="4306000" />
       <workItem from="1699265875007" duration="10605000" />
-      <workItem from="1699426509081" duration="6571000" />
-    </task>
-    <task id="LOCAL-00001" summary="Initial commit">
-      <option name="closed" value="true" />
-      <created>1692950345836</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1692950345836</updated>
+      <workItem from="1699426509081" duration="13437000" />
     </task>
     <task id="LOCAL-00002" summary="Initial commit">
       <option name="closed" value="true" />
@@ -611,7 +615,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699269779539</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="comment">
+      <option name="closed" value="true" />
+      <created>1699433213590</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1699433213590</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

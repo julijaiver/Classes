@@ -4,7 +4,6 @@ html {
 }
 
 #main{
-    margin-top: 10rem;
     margin-bottom: 30rem;
 }
 
@@ -18,7 +17,7 @@ html {
 
 body {
     font-family: Montserrat, sans-serif;
-    background-image: url("IMG_4736 (1).jpg");
+    background-image: url("img/IMG_4736 (1).jpg");
     background-size: cover;
     background-attachment: fixed;
 }
@@ -43,8 +42,9 @@ header {
 }
 
 .logo {
+    height: 50px;
     margin-left: 1rem;
-    margin-right: 39rem;
+    margin-right: 41rem;
 }
 
 .logo:hover {
@@ -97,6 +97,10 @@ p {
     padding: 1rem;
 }
 
+#main p {
+    text-align: center;
+}
+
 .main_image {
     display: flex;
     flex-wrap: wrap;
@@ -109,6 +113,10 @@ p {
 
 }
 
+#products img {
+    margin-top: 2rem;
+}
+
 section {
     display: flex;
     flex-wrap: wrap;
@@ -116,11 +124,19 @@ section {
     padding: 1rem;
 }
 
+figure {
+    margin: 0;
+}
+
+figcaption {
+    margin-bottom: 1rem;
+}
+
 section img {
     max-width: 100%;
     height: auto;
     width: 100%;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     box-sizing: border-box;
 }
 
