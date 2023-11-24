@@ -5,25 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ac0155f-21e6-4362-afc2-ef7bd089652d" name="Changes" comment="comment">
-      <change afterPath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/Main2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/img/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_4_2023_8_04_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_4_2023_8_04_PM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/AssgnStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/AssgnStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/Contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/IMG_4736 (1).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/img/IMG_4736 (1).jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/Julija_Ivaskeviciute.png" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/img/Julija_Ivaskeviciute.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/Logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/img/Logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/Logo2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/img/Logo2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/Main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/MainPImg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/img/MainPImg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/MainPImg.png" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/img/MainPImg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/Prod1.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/img/Prod1.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/Prod2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/img/Prod2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/Prod3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/img/Prod3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/ProdMain.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/img/ProdMain.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/Products.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/jk.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/HTML-CSS-JS/Assignment/img/jk.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software2/JS/lecture2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/JS/lecture2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Software2/JS/Module 1/Assgn 1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Software2/JS/Module 1/Assgn 2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Software2/JS/Module 1/Assgn 3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Software2/JS/Module 1/Assgn 4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Software2/JS/Module 1/Assgn 5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Software2/JS/Module 1/Assgn6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Software2/JS/Module 1/Assgn7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Software2/Python/testExer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/Python/testExer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +85,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.JavaScript&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -105,11 +97,11 @@
       <recent name="C:\Users\julia\PycharmProjects\Python.classes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\julia\PycharmProjects\Python.classes\Software2\HTML-CSS-JS\Assignment\img" />
-      <recent name="C:\Users\julia\PycharmProjects\Python.classes\Software2\HTML-CSS-JS\Assignment" />
-      <recent name="C:\Users\julia\PycharmProjects\Python.classes\Software2\Python" />
-      <recent name="C:\Users\julia\PycharmProjects\Python.classes\Software2" />
-      <recent name="C:\Users\julia\Desktop\METROPOLIA\Software 2\HTML-CSS-JS\Assignment" />
+      <recent name="C:\Users\julia\PycharmProjects\Classes\Software2\JS\Module 1\Assignment7" />
+      <recent name="C:\Users\julia\PycharmProjects\Classes\Software2\JS\Module 1\Assignment6" />
+      <recent name="C:\Users\julia\PycharmProjects\Classes\Software2\JS\Module 1\Assignment5" />
+      <recent name="C:\Users\julia\PycharmProjects\Classes\Software2\JS\Module 1\Assignment4" />
+      <recent name="C:\Users\julia\PycharmProjects\Classes\Software2\JS\Module 1\Assignment3" />
     </key>
   </component>
   <component name="RunManager" selected="Python.conditional_statement">
@@ -126,7 +118,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\julia\PycharmProjects\Python.classes\Software1\exercises\conditional_statement.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Python.classes/Software1/exercises/conditional_statement.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -230,6 +222,11 @@
       <workItem from="1699206037861" duration="4306000" />
       <workItem from="1699265875007" duration="10605000" />
       <workItem from="1699426509081" duration="13437000" />
+      <workItem from="1700684982438" duration="97000" />
+      <workItem from="1700685150544" duration="402000" />
+      <workItem from="1700748717417" duration="625000" />
+      <workItem from="1700749352971" duration="2466000" />
+      <workItem from="1700820875361" duration="21869000" />
     </task>
     <task id="LOCAL-00002" summary="Initial commit">
       <option name="closed" value="true" />
@@ -658,29 +655,32 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Python_classes$Association.coverage" NAME="Association Coverage Results" MODIFIED="1698146243816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Software2" />
     <SUITE FILE_PATH="coverage/Python_classes$DatabaseForFlight.coverage" NAME="DatabaseForFlight Coverage Results" MODIFIED="1696181134967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flight game project" />
     <SUITE FILE_PATH="coverage/Python_classes$codecs.coverage" NAME="codecs Coverage Results" MODIFIED="1696593395826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/Programs/Python/Python39/Lib" />
     <SUITE FILE_PATH="coverage/Python_classes$InheritanceExercises.coverage" NAME="InheritanceExercises Coverage Results" MODIFIED="1698218036854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Software2" />
     <SUITE FILE_PATH="coverage/Python_classes$Functions.coverage" NAME="Functions Coverage Results" MODIFIED="1694787880328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Python_classes$databases.coverage" NAME="databases Coverage Results" MODIFIED="1695921186563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Classes$conditional_statement.coverage" NAME="conditional_statement Coverage Results" MODIFIED="1700748877738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_classes$hgjk.coverage" NAME="hgjk Coverage Results" MODIFIED="1694153491846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_classes$conditional_statement.coverage" NAME="conditional_statement Coverage Results" MODIFIED="1698844484079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_classes$testExer.coverage" NAME="testExer Coverage Results" MODIFIED="1698844547007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Software2" />
-    <SUITE FILE_PATH="coverage/Python_classes$fourth.coverage" NAME="fourth Coverage Results" MODIFIED="1693854182323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Python_classes$testOne_time.coverage" NAME="testOne@time Coverage Results" MODIFIED="1696595579518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_classes$first.coverage" NAME="first Coverage Results" MODIFIED="1692949303370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_classes$TEST.coverage" NAME="TEST Coverage Results" MODIFIED="1696411056074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_classes$GameRamon.coverage" NAME="GameRamon Coverage Results" MODIFIED="1696591223493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_classes$ObjectClassExercises.coverage" NAME="ObjectClassExercises Coverage Results" MODIFIED="1698139980157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Software2" />
-    <SUITE FILE_PATH="coverage/Python_classes$AnotherTesting.coverage" NAME="AnotherTesting Coverage Results" MODIFIED="1698168428476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Software2" />
-    <SUITE FILE_PATH="coverage/Python_classes$second.coverage" NAME="second Coverage Results" MODIFIED="1693390565637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_classes$test_exercises.coverage" NAME="test_exercises Coverage Results" MODIFIED="1694154013621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Python_classes$FunctionsForFlight.coverage" NAME="FunctionsForFlight Coverage Results" MODIFIED="1696361836293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flight game project" />
     <SUITE FILE_PATH="coverage/Python_classes$testForGame.coverage" NAME="testForGame Coverage Results" MODIFIED="1696437629238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_classes$ObjectClass.coverage" NAME="ObjectClass Coverage Results" MODIFIED="1698062090213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Software2" />
-    <SUITE FILE_PATH="coverage/Python_classes$test.coverage" NAME="test Coverage Results" MODIFIED="1693501428073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_classes$GameFile.coverage" NAME="GameFile Coverage Results" MODIFIED="1697019210274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flight game project" />
+    <SUITE FILE_PATH="coverage/Classes$testExer.coverage" NAME="testExer Coverage Results" MODIFIED="1700748890713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Software2/Python" />
     <SUITE FILE_PATH="coverage/Python_classes$third.coverage" NAME="third Coverage Results" MODIFIED="1693501379957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_classes$Association.coverage" NAME="Association Coverage Results" MODIFIED="1698146243816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Software2" />
+    <SUITE FILE_PATH="coverage/Python_classes$databases.coverage" NAME="databases Coverage Results" MODIFIED="1695921186563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_classes$fourth.coverage" NAME="fourth Coverage Results" MODIFIED="1693854182323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_classes$testOne_time.coverage" NAME="testOne@time Coverage Results" MODIFIED="1696595579518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_classes$AnotherTesting.coverage" NAME="AnotherTesting Coverage Results" MODIFIED="1698168428476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Software2" />
+    <SUITE FILE_PATH="coverage/Classes$InheritanceExercises.coverage" NAME="InheritanceExercises Coverage Results" MODIFIED="1700749015065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Software2/Python" />
+    <SUITE FILE_PATH="coverage/Python_classes$second.coverage" NAME="second Coverage Results" MODIFIED="1693390565637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_classes$FunctionsForFlight.coverage" NAME="FunctionsForFlight Coverage Results" MODIFIED="1696361836293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flight game project" />
+    <SUITE FILE_PATH="coverage/Python_classes$test.coverage" NAME="test Coverage Results" MODIFIED="1693501428073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
