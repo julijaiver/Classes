@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Concatenating</title>
+</head>
+<body>
+<p id="target"></p>
+<script>
+    'use strict';
+    function concat(array) {
+        let concatenated = '';
+        for (let i=0; i<array.length; i++) {
+            concatenated += array[i]
+        }
+        return concatenated
+    }
+
+    let word_list = ['Dumbo', 'Jumbo', 'Mumbo', 'Humbo'];
+    const result = concat(word_list);
+
+    document.querySelector('#target').innerHTML = result;
+
+</script>
+</body>
+</html>

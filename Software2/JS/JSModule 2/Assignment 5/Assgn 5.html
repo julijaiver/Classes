@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Same number</title>
+</head>
+<body>
+<script>
+
+   let numbers = [];
+   let user_number = parseInt(prompt("Enter a number"));
+
+   while (true) {
+       numbers.push(user_number);
+
+       if (numbers.indexOf(user_number) != numbers.lastIndexOf(user_number)) {
+           alert("Number has already been given");
+           break;
+       }
+       user_number = parseInt(prompt("Enter another number"));
+   }
+
+   numbers.sort((a,b) => a-b);
+   for (let i=0; i<numbers.length;i++) {
+   console.log(numbers[i]);
+  }
+
+</script>
+
+</body>
+</html>
+

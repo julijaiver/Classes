@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Leap year list</title>
+</head>
+<body>
+<ul id="year_list"></ul>
+
+<script>
+    let start_year = parseInt(prompt("Enter start year"));
+    let end_year = parseInt(prompt("Enter end year"));
+
+    let leap_year_list = document.getElementById('year_list');
+
+    let leap_years = [];
+
+    for (let year=start_year; year<=end_year; year++) {
+        if ((0 === year % 4) || (0 === year % 100) && (0 === year % 400)) {
+            leap_years.push(year);
+        }
+    }
+    leap_years.forEach(year => {
+        const listItem = document.createElement('li');
+        listItem.textContent = year;
+        leap_year_list.appendChild(listItem);
+    })
+
+
+</script>
+
+</body>
+</html>

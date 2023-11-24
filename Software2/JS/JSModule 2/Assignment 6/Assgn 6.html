@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul id="dice_rolls"></ul>
+<script>
+  function dice_roll() {
+    const dice_rolled = Math.floor(Math.random()*6)+1;
+    return dice_rolled;
+  }
+
+  let dice_list = document.getElementById('dice_rolls');
+  let dice_results = [];
+
+  while (true) {
+      let rolled = dice_roll();
+      if (rolled === 6) {
+          break;
+      }
+      dice_results.push(rolled);
+  }
+
+  dice_results.forEach(roll => {
+      const list_item = document.createElement('li');
+      list_item.textContent = roll;
+      dice_list.appendChild(list_item);
+  })
+
+</script>
+
+</body>
+</html>

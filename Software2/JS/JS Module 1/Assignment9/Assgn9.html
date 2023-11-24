@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prime number</title>
+</head>
+<body>
+<p id="target"></p>
+<script>
+    'use strict';
+    let integer = parseInt(prompt("Enter an integer"));
+
+    let is_prime = true;
+    if (integer <=1) {
+        is_prime = false;
+    } else {
+        for (let i=2; i<integer; i++) {
+        if (integer % i === 0) {
+            is_prime = false;
+            break;
+        }}
+    }
+    if (is_prime) {
+        document.querySelector('#target').innerHTML='Integer is a prime number';
+    } else {
+        document.querySelector('#target').innerHTML='Integer is not a prime number';
+    }
+</script>
+</body>
+</html>

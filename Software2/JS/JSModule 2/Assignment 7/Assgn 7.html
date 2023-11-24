@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dice2</title>
+</head>
+<body>
+<ul id="dice_rolls"></ul>
+
+<script>
+
+  function dice_roll(sides) {
+    const dice_rolled = Math.floor(Math.random()*sides)+1;
+    return dice_rolled;
+  }
+
+  let dice_list = document.getElementById('dice_rolls');
+  let dice_results = [];
+
+  const sides = parseInt(prompt("Enter number of dice sides"));
+  while (true) {
+      let rolled = dice_roll(sides);
+      if (rolled === sides) {
+          break;
+      }
+      dice_results.push(rolled);
+  }
+
+  dice_results.forEach(roll => {
+      const list_item = document.createElement('li');
+      list_item.textContent = roll;
+      dice_list.appendChild(list_item);
+  })
+
+</script>
+</body>
+</html>

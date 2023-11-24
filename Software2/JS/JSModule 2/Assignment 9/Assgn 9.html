@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Even array</title>
+</head>
+<body>
+<script>
+    function even(array) {
+        let even_array = [];
+        for (let i=0; i<array.length; i++) {
+            if (array[i] % 2 == 0) {
+                even_array.push(array[i]);
+            }
+        }
+        return even_array;
+    }
+
+    const number_array = [2,5,8,9,13,14,18,7];
+    const even_number_array = even(number_array);
+    console.log(number_array);
+    console.log(even_number_array);
+
+</script>
+
+</body>
+</html>

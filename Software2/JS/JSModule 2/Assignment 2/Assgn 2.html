@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Participants</title>
+</head>
+<body>
+<ol id="participants"></ol>
+<script>
+    let number_of_participants = parseInt(prompt("Enter number of participants"));
+
+    let participants = document.getElementById('participants');
+
+    let participant_list = [];
+
+    for (let i=0; i<number_of_participants; i++) {
+        let name = prompt(`Enter name ${i+1}`);
+        participant_list.push(name);
+    }
+
+    participant_list.forEach(name => {
+        const list_item = document.createElement('li');
+        list_item.textContent = name;
+        participants.appendChild(list_item);
+    })
+
+</script>
+
+</body>
+</html>

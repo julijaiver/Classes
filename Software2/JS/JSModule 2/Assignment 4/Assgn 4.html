@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Numbers</title>
+</head>
+<body>
+<script>
+  let numbers = [];
+
+  let number = parseFloat(prompt("Enter a number (enter 0 to stop)"));
+  while (number != 0) {
+    numbers.push(number);
+    number = parseFloat(prompt("Enter another number"))
+  }
+
+  numbers.sort((a,b) => a-b).reverse();
+
+  for (let i=0; i<numbers.length;i++) {
+   console.log(numbers[i]);
+  }
+
+</script>
+
+
+</body>
+</html>

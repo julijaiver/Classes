@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Square root</title>
+</head>
+<body>
+<p id="target"></p>
+<script>
+    'use strict';
+    if (confirm("Should I calculate the square root?")) {
+        let number = parseFloat(prompt("Enter number"));
+        if (number >= 0) {
+            let root = Math.sqrt(number).toFixed(2);
+            document.querySelector('#target').innerHTML = 'Square root is ' + root;
+        } else {
+            document.querySelector('#target').innerHTML = 'The square root of a negative number is not defined';
+        }
+    } else {
+        document.querySelector('#target').innerHTML = 'The square root is not calculated';
+    }
+</script>
+
+</body>
+</html>

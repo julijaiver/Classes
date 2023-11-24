@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dogs</title>
+</head>
+<body>
+<ul id="dog_list"></ul>
+<script>
+    let dog_list = document.getElementById('dog_list');
+    const dogs = [];
+
+    for (let i=0; i<6; i++) {
+        let dog_name = prompt(`Enter dog name ${i + 1}`);
+        dogs.push(dog_name);
+    }
+
+    dogs.sort().reverse()
+    dogs.forEach(name => {
+        const list_item = document.createElement('li');
+        list_item.textContent = name;
+        dog_list.appendChild(list_item);
+    })
+
+</script>
+</body>
+
+</html>
