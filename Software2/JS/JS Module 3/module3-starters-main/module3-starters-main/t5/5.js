@@ -94,30 +94,30 @@ const picArray = [
 
 const section = document.getElementById('pictures');
 
-    picArray.forEach(picture => {
-        const article = document.createElement('article');
-        article.classList.add('card');
+picArray.forEach(picture => {
+  const article = document.createElement('article');
+  article.classList.add('card');
 
-        const header = document.createElement('h2');
-        header.textContent = picture.title;
+  const heading = document.createElement('h2');
+  heading.textContent = picture.title;
 
-        const figure = document.createElement('figure');
-        const image = document.createElement('img');
-        image.src = `thumbnails/${picture.medium_image}`;
-        image.alt = picture.caption;
-        const fig_caption = document.createElement('figcaption');
-        fig_caption.textContent = picture.caption;
+  const figure = document.createElement('figure');
+  const image = document.createElement('img');
+  image.src = picture.image.medium;
+  image.alt = picture.caption;
+  const fig_caption = document.createElement('figcaption');
+  fig_caption.textContent = picture.caption;
 
-        const p = document.createElement('p');
-        p.textContent = picture.description;
+  const p = document.createElement('p');
+  p.textContent = picture.description;
 
-        section.appendChild(article);
+  section.appendChild(article);
 
-        article.appendChild(header);
-        article.appendChild(figure);
-        article.appendChild(p);
+  article.appendChild(heading);
+  article.appendChild(figure);
+  article.appendChild(p);
 
-        figure.appendChild(image);
-        figure.appendChild(fig_caption);
-    })
+  figure.appendChild(image);
+  figure.appendChild(fig_caption);
+})
 
