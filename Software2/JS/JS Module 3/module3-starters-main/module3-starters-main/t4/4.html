@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4</title>
+    <script src="4.js" defer></script>
+</head>
+
+<body>
+    <h1>Task 4</h1>
+    <select id="target"></select>
+</body>
+<script>
+
+    const select = document.getElementById('target');
+    const students = [
+        { value: "2345768", name: "John" },
+        { value: "2134657", name: "Paul" },
+        { value: "5423679", name: "Jones" }
+    ];
+
+    for (let i=0; i<students.length; i++) {
+        const option = document.createElement('option');
+        option.value = students[i].value;
+        option.textContent = students[i].name;
+        select.appendChild(option);
+    }
+
+
+
+</script>
+
+</html>

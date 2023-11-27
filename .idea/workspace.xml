@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ac0155f-21e6-4362-afc2-ef7bd089652d" name="Changes" comment="comment">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_4_2023_8_04_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_4_2023_8_04_PM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software2/JS/Module 1/Assgn 1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software2/JS/Module 1/Assgn 2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software2/JS/Module 1/Assgn 3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software2/JS/Module 1/Assgn 4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software2/JS/Module 1/Assgn 5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software2/JS/Module 1/Assgn6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software2/JS/Module 1/Assgn7.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software2/Python/testExer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/Python/testExer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +34,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -226,23 +217,10 @@
       <workItem from="1700685150544" duration="402000" />
       <workItem from="1700748717417" duration="625000" />
       <workItem from="1700749352971" duration="2466000" />
-      <workItem from="1700820875361" duration="21869000" />
-    </task>
-    <task id="LOCAL-00002" summary="Initial commit">
-      <option name="closed" value="true" />
-      <created>1692950354014</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1692950354014</updated>
-    </task>
-    <task id="LOCAL-00003" summary="update">
-      <option name="closed" value="true" />
-      <created>1693388492418</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1693388492418</updated>
+      <workItem from="1700820875361" duration="22655000" />
+      <workItem from="1700918975305" duration="103000" />
+      <workItem from="1700919089060" duration="2204000" />
+      <workItem from="1700985782231" duration="4700000" />
     </task>
     <task id="LOCAL-00004" summary="update">
       <option name="closed" value="true" />
@@ -620,7 +598,23 @@
       <option name="project" value="LOCAL" />
       <updated>1699433213590</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="comment">
+      <option name="closed" value="true" />
+      <created>1700865522747</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1700865522747</updated>
+    </task>
+    <task id="LOCAL-00052" summary="comment">
+      <option name="closed" value="true" />
+      <created>1700865941985</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1700865941985</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
