@@ -1,0 +1,62 @@
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Popup container */
+.popup-container {
+    display: none;
+    width: 400px; /* Adjust this size as needed */
+    height: 400px; /* Adjust this size as needed */
+    background-image: url('photos/QuizImg.png');
+    background-size: cover;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    z-index: 1000;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.5); /* Initially set scale to 0.5 for the popping effect */
+    opacity: 0; /* Initially set opacity to 0 */
+    transition: transform 0.5s ease, opacity 0.5s ease; /* Apply transition for smooth effect */
+}
+
+.popup-container.visible {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1); /* Set the scale back to 1 for full size */
+}
+
+#submitQuiz {
+    padding: 10px;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    color: white;
+    background-color: rgb(77, 77, 77);
+    border-radius: 15px;
+    position: absolute; /* Set position to absolute */
+    bottom: 28px; /* Adjust the bottom distance from the container */
+    left: 50%; /* Position horizontally in the middle */
+    transform: translateX(-50%); /* Adjust to center horizontally */
+    z-index: 1; /* Ensure the button is above the background image */
+}
+
+#submitQuiz:hover {
+    background-color: rgb(77, 77, 77, 0.5);
+}
+
+.popup-content {
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    padding: 40px;
+    color: black;
+}

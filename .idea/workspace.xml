@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ac0155f-21e6-4362-afc2-ef7bd089652d" name="Changes" comment="comment">
-      <change afterPath="$PROJECT_DIR$/Software2/JS/JS Module 4/Assignment1/Assgn1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Software2/JS/JS Module 4/Assignment2/Assgn2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Software2/JS/JS Module 4/Assignment2/Assgn2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Software2/JS/JS Module 4/Assignment3/Assgn3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Software2/JS/JS Module 4/Assignment3/Assgn3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Software2/JS/JS Module 4/Assignment4/Assgn4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Software2/JS/JS Module 4/Assignment4/Assgn4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Software2/JS/JS Module 4/Assignment5/Assgn5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Software2/JS/JS Module 4/Assignment5/Assgn5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Software2/JS/JS Module 4/Assignment6/Assgn6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Software2/JS/JS Module 4/Assignment6/Assgn6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Software2/PROJECT/spyFly.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Software2/PROJECT/spyFly.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,9 +18,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
-        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -100,11 +91,11 @@
       <recent name="C:\Users\julia\PycharmProjects\Python.classes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\julia\PycharmProjects\Classes\Software2\PROJECT\photos" />
+      <recent name="C:\Users\julia\PycharmProjects\Classes\Software2\PROJECT" />
       <recent name="C:\Users\julia\PycharmProjects\Classes\Software2\JS\Module 1\Assignment7" />
       <recent name="C:\Users\julia\PycharmProjects\Classes\Software2\JS\Module 1\Assignment6" />
       <recent name="C:\Users\julia\PycharmProjects\Classes\Software2\JS\Module 1\Assignment5" />
-      <recent name="C:\Users\julia\PycharmProjects\Classes\Software2\JS\Module 1\Assignment4" />
-      <recent name="C:\Users\julia\PycharmProjects\Classes\Software2\JS\Module 1\Assignment3" />
     </key>
   </component>
   <component name="RunManager" selected="Python.conditional_statement">
@@ -234,15 +225,10 @@
       <workItem from="1700919089060" duration="2204000" />
       <workItem from="1700985782231" duration="14977000" />
       <workItem from="1701162680644" duration="5456000" />
-      <workItem from="1701191893672" duration="10316000" />
-    </task>
-    <task id="LOCAL-00007" summary="initial">
-      <option name="closed" value="true" />
-      <created>1693501476931</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1693501476931</updated>
+      <workItem from="1701191893672" duration="11675000" />
+      <workItem from="1701245073393" duration="1813000" />
+      <workItem from="1701254964641" duration="815000" />
+      <workItem from="1701281770712" duration="12377000" />
     </task>
     <task id="LOCAL-00008" summary="initial">
       <option name="closed" value="true" />
@@ -628,7 +614,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701124233192</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="comment">
+      <option name="closed" value="true" />
+      <created>1701203718079</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1701203718079</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
