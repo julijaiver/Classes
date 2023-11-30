@@ -21,7 +21,7 @@ async function fetchQuizData() {
     try {
         const response = await fetch(url, options);
         const result = await response.json();
-        return result;// Return the entire quiz data array
+        return result;
     } catch (error) {
         throw new Error(error);
     }
@@ -55,7 +55,7 @@ function displayNextQuestion() {
         questionDiv.appendChild(document.createElement('br'));
     });
 
-    quizContent.innerHTML = ''; // Clear previous question
+    quizContent.innerHTML = ''; // Clears previous question
     quizContent.appendChild(questionDiv);
 }
 
@@ -63,7 +63,7 @@ async function startQuiz() {
     try {
         quizData = await fetchQuizData();
         displayNextQuestion();
-        popupContainer.classList.add('visible'); // Add 'visible' class to trigger animation
+        popupContainer.classList.add('visible'); // Adds 'visible' class to trigger animation
     } catch (error) {
         console.error(error);
     }
