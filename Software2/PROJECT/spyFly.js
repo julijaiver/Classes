@@ -21,8 +21,7 @@ async function fetchQuizData() {
     try {
         const response = await fetch(url, options);
         const result = await response.json();
-
-        return result; // Return the entire quiz data array
+        return result;// Return the entire quiz data array
     } catch (error) {
         throw new Error(error);
     }
