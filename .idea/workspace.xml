@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ac0155f-21e6-4362-afc2-ef7bd089652d" name="Changes" comment="comment">
-      <change afterPath="$PROJECT_DIR$/Software2/PROJECT/photos/PopupImg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Software2/PROJECT/StartingPop.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Software2/PROJECT/StartingPop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Software2/PROJECT/photos/StartingPop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Software2/PROJECT/photos/startPop2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software2/PROJECT/spyFly.html" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/PROJECT/spyFly.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Software2/PROJECT/spyFly.js" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/PROJECT/spyFly.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Software2/PROJECT/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/PROJECT/style.css" afterDir="false" />
     </list>
@@ -93,8 +95,8 @@
       <recent name="C:\Users\julia\PycharmProjects\Python.classes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\julia\PycharmProjects\Classes\Software2\PROJECT\Fonts" />
       <recent name="C:\Users\julia\PycharmProjects\Classes\Software2\PROJECT\photos" />
+      <recent name="C:\Users\julia\PycharmProjects\Classes\Software2\PROJECT\Fonts" />
       <recent name="C:\Users\julia\PycharmProjects\Classes\Software2\PROJECT" />
       <recent name="C:\Users\julia\PycharmProjects\Classes\Software2\JS\Module 1\Assignment7" />
       <recent name="C:\Users\julia\PycharmProjects\Classes\Software2\JS\Module 1\Assignment6" />
@@ -233,31 +235,8 @@
       <workItem from="1701281770712" duration="12633000" />
       <workItem from="1701295434670" duration="68000" />
       <workItem from="1701321607538" duration="2614000" />
-      <workItem from="1701329259197" duration="1887000" />
-    </task>
-    <task id="LOCAL-00009" summary="initial">
-      <option name="closed" value="true" />
-      <created>1694159095502</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1694159095502</updated>
-    </task>
-    <task id="LOCAL-00010" summary="comment">
-      <option name="closed" value="true" />
-      <created>1694165272989</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1694165272989</updated>
-    </task>
-    <task id="LOCAL-00011" summary="comment">
-      <option name="closed" value="true" />
-      <created>1694166758992</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1694166758992</updated>
+      <workItem from="1701329259197" duration="2295000" />
+      <workItem from="1701336392457" duration="13664000" />
     </task>
     <task id="LOCAL-00012" summary="comment">
       <option name="closed" value="true" />
@@ -627,7 +606,31 @@
       <option name="project" value="LOCAL" />
       <updated>1701295379060</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="comment">
+      <option name="closed" value="true" />
+      <created>1701332801068</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1701332801068</updated>
+    </task>
+    <task id="LOCAL-00059" summary="comment">
+      <option name="closed" value="true" />
+      <created>1701332867823</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1701332867823</updated>
+    </task>
+    <task id="LOCAL-00060" summary="comment">
+      <option name="closed" value="true" />
+      <created>1701332882302</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1701332882302</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
