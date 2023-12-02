@@ -76,27 +76,27 @@ async function nameFormSubmit(evt) {
     const nameDisplay = document.querySelector('#displayName');
     nameDisplay.append(name);
      //Flask part?
-    try {
-        await fetch('/name', {
-            method: 'POST',
-            body: JSON.stringify({name: name})
-        })
-            .then(response => {
-                if (response.ok) {
-                    overlay.style.display = 'none';
-                    const popup = document.querySelector('#startPopContainer');
-                    popup.style.display = 'none';
-                } else {
-                    throw new Error('Submission failed.');
-                }
-            })
-    } catch (error) {
-        alert('Error: ' + error.message);
-    }
-}
+//     try {
+//         await fetch('/name', {
+//             method: 'POST',
+//             body: JSON.stringify({name: name})
+//         })
+//             .then(response => {
+//                 if (response.ok) {
+//                     overlay.style.display = 'none';
+//                     const popup = document.querySelector('#startPopContainer');
+//                     popup.style.display = 'none';
+//                 } else {
+//                     throw new Error('Submission failed.');
+//                 }
+//             })
+//     } catch (error) {
+//         alert('Error: ' + error.message);
+//     }
+ }
 
 document.addEventListener('DOMContentLoaded', function () {
-       //showPopup('startPopContainer');
+       showPopup('startPopContainer');
        initializeMap();
 });
 
@@ -209,3 +209,8 @@ submitButton.addEventListener('click', function() {
     checkAnswers();
 });
 
+
+const submitNameButton = document.querySelector('#submitName');
+submitNameButton.addEventListener('click', function () {
+    showPopup('difficultyPopContainer');
+})
