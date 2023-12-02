@@ -11,13 +11,13 @@ L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/
 }).addTo(map);
 
 const customIcon = L.icon({
-    iconUrl: 'mapMarker.png',
+    iconUrl: 'photos/marker3.png',
     iconSize: [50, 50],
     iconAnchor: [16, 32]
 });
 
 // for (let airport of gameData.location) {
-//     L.marker([airport.latitude, airport.longitude], { icon: customIcon }).addTo(map);
+     L.marker([51.505, -0.09], { icon: customIcon }).addTo(map);
 // }
 
 // Need to set initial coordinates with database random loc.
