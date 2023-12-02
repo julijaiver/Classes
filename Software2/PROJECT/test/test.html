@@ -12,6 +12,7 @@
     <link href="test.css" rel="stylesheet">
 </head>
 <body>
+<div class="container">
 <div class="overlay"></div>
 
 <div class="popup" id="startPopContainer">
@@ -25,13 +26,32 @@
     </div>
 </div>
 
-<div id="map" style="height: 500px; width: 700px"></div>
-<button id="quizButton">START</button>
+<div id="map"></div>
+<h2>GAME DATA</h2>
+    <table>
+        <tr>
+            <td>Player's name</td>
+            <td id="displayName"></td>
+        </tr>
+        <tr>
+            <td>Current location</td>
+            <td id="currentLocation"></td>
+        </tr>
+        <tr>
+            <td>Battery Power</td>
+            <td id="batteryPower"></td>
+        </tr>
+        <tr>
+            <td>Points</td>
+            <td id="points"></td>
+        </tr>
+    </table>
+<button class="popup-button" id="quizButton">START</button>
 
 <div class="popup" id="quizPopup">
     <div class="quiz-content" id="quizContent">
     </div>
-    <button class = "popup-button" id="submitQuiz">Submit</button>
+    <button class ="popup-button" id="submitQuiz">Submit</button>
 </div>
 
 <div class="popup" id="missionSuccess">
@@ -48,7 +68,7 @@
         <button class="popup-button" id="caughtButton">Start Over</button>
     </div>
 </div>
-
+</div>
 
 <script src="test.js"></script>
 </body>

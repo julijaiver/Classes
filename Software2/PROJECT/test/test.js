@@ -10,14 +10,53 @@ L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/
     maxZoom: 20,
 }).addTo(map);
 
-const customIcon = L.icon({
-    iconUrl: 'photos/marker3.png',
+const redMarker = L.icon({
+    iconUrl: 'photos/roundMarker.png',
     iconSize: [50, 50],
-    iconAnchor: [16, 32]
+    iconAnchor: [25, 20]
 });
 
+const greenMarker = L.icon({
+    iconUrl: 'photos/marker2.png',
+    iconSize: [50, 50],
+    iconAnchor: [25, 20]
+});
+
+
+
 // for (let airport of gameData.location) {
-     L.marker([51.505, -0.09], { icon: customIcon }).addTo(map);
+    let active = false;
+    let marker;
+     if (active) { //if current location
+         marker = L.marker([51.505, -0.09]).addTo(map);
+         marker.bindPopup(`You are here: <br>//airport name</br>`);
+         marker.openPopup();
+         marker.setIcon(greenMarker);
+    } else { // to every other location
+         marker = L.marker([51.505, -0.09]).addTo(map);
+         marker.setIcon(redMarker);
+         const popupContent = document.createElement('div');
+         const h4 = document.createElement('h4');
+         h4.innerHTML = `//airport name`;
+         popupContent.append(h4);
+         const p = document.createElement('p');
+         p.innerHTML = `Distance: //range`;
+         popupContent.append(p);
+         const flyButton = document.createElement('button');
+         flyButton.classList.add('popup-button');
+         flyButton.innerHTML = 'FLY';
+         popupContent.append(flyButton);
+         marker.bindPopup(popupContent, {
+             maxHeight: 130
+         });
+     }
+     marker.on('mouseover', function () {
+         marker.openPopup();
+     });
+     marker.on('mouseout', function () {
+         marker.closePopup();       //Popup doesn't stay open when mouse is over it
+     });
+
 // }
 
 // Need to set initial coordinates with database random loc.
@@ -34,7 +73,8 @@ function showPopup(id) {
 async function nameFormSubmit(evt) {
     evt.preventDefault();
     const name = document.querySelector('#playersName').value;
-
+    const nameDisplay = document.querySelector('#displayName');
+    nameDisplay.append(name);
      //Flask part?
     try {
         await fetch('/name', {

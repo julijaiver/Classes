@@ -3,6 +3,23 @@
     src: url("../Fonts/NovaSquare-Regular.ttf") format('truetype');
 }
 
+.container {
+    display: flex;
+    height: 100%;
+}
+
+#map {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 500px;
+    width: 700px;
+}
+
+#quizButton {
+    margin-top: 600px;
+}
+
 .overlay {
     display:none;
     position: fixed;
