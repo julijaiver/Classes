@@ -79,6 +79,9 @@ async function nameFormSubmit(evt) {
 //     try {
 //         await fetch('/name', {
 //             method: 'POST',
+//             headers: {
+//             'Content-Type': 'application/json'
+//         },
 //             body: JSON.stringify({name: name})
 //         })
 //             .then(response => {
@@ -96,8 +99,8 @@ async function nameFormSubmit(evt) {
  }
 
 document.addEventListener('DOMContentLoaded', function () {
-       showPopup('startPopContainer');
        initializeMap();
+       //showPopup('startPopContainer');
 });
 
 const nameForm = document.querySelector('#playerForm');

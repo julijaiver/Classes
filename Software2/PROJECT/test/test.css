@@ -77,6 +77,24 @@
     height: auto;
 }
 
+#difficultyImg {
+    width: 100%;
+    height: auto;
+}
+
+#difficultyRadio {
+    position: absolute;
+    top: 53%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+
+#submitContinent {
+    position: absolute;
+    top: 60%;
+    left: 42%;
+}
+
 form {
     position: absolute;
     top: 50%;
@@ -109,7 +127,7 @@ form {
 }
 
 .popup-button:hover {
-    background-color: rgb(255, 255, 255, 0.3);
+    background-color: rgb(255, 255, 255, 0.4);
 }
 
 #successButton {
