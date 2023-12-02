@@ -27,7 +27,7 @@ async function fetchQuizData() {
     }
 }
 
-function displayNextQuestion() {
+function displayRandQuestion() {
     if (quizData.length === 0) {
         console.log('No more questions.');
         return;
@@ -62,7 +62,7 @@ function displayNextQuestion() {
 async function startQuiz() {
     try {
         quizData = await fetchQuizData();
-        displayNextQuestion();
+        displayRandQuestion();
         popupContainer.classList.add('visible'); // Adds 'visible' class to trigger animation
     } catch (error) {
         console.error(error);
@@ -71,13 +71,12 @@ async function startQuiz() {
 
 quizButton.addEventListener('click', function() {
     startQuiz();
-    overlay.style.display = 'flex'; // Show the dark overlay
+    overlay.style.display = 'block'; // Show the dark overlay
     popupContainer.style.display = 'block'; // Show the popup window
 });
 
 submitButton.addEventListener('click', function() {
     checkAnswers();
-    displayNextQuestion();
 });
 
 function checkAnswers() {
@@ -87,9 +86,9 @@ function checkAnswers() {
         const correctAnswer = currentQuestionData.answer;
 
         if (selectedValue === correctAnswer) {
-            alert('Correct answer!');
+            alert('Congratulations! You get 15 points and battery power');
         } else {
-            alert('Incorrect answer. Try again!');
+            // show popup of getting caught
         }
     } else {
         alert('Please select an answer.');

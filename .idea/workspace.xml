@@ -5,21 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ac0155f-21e6-4362-afc2-ef7bd089652d" name="Changes" comment="comment">
-      <change afterPath="$PROJECT_DIR$/Software2/PROJECT/JsVideo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Software2/PROJECT/photos/startPop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Software2/PROJECT/test/photos/caughtPop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Software2/PROJECT/test/photos/mapMarker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Software2/PROJECT/test/photos/marker2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Software2/PROJECT/test/photos/missionSuccess.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Software2/PROJECT/test/photos/successPop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Software2/PROJECT/test/test.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software2/PROJECT/StartingPop.html" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/PROJECT/startPopup/StartingPop.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software2/PROJECT/StartingPop.js" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/PROJECT/startPopup/StartingPop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software2/PROJECT/popupStart.css" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/PROJECT/startPopup/popupStart.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software2/PROJECT/spyFly.html" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/PROJECT/quizPopup/quizPop.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software2/PROJECT/spyFly.js" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/PROJECT/quizPopup/quizPop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software2/PROJECT/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/PROJECT/quizPopup/quizStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Software2/PROJECT/quizPopup/quizPop.js" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/PROJECT/quizPopup/quizPop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Software2/PROJECT/quizPopup/quizStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/PROJECT/quizPopup/quizStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Software2/PROJECT/test/test.css" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/PROJECT/test/test.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Software2/PROJECT/test/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/PROJECT/test/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Software2/PROJECT/test/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/PROJECT/test/test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -249,15 +240,7 @@
       <workItem from="1701321607538" duration="2614000" />
       <workItem from="1701329259197" duration="2295000" />
       <workItem from="1701336392457" duration="20571000" />
-      <workItem from="1701454652003" duration="16441000" />
-    </task>
-    <task id="LOCAL-00013" summary="comment">
-      <option name="closed" value="true" />
-      <created>1694410347193</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1694410347193</updated>
+      <workItem from="1701454652003" duration="22711000" />
     </task>
     <task id="LOCAL-00014" summary="comment">
       <option name="closed" value="true" />
@@ -643,7 +626,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701417219534</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="comment">
+      <option name="closed" value="true" />
+      <created>1701512232392</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1701512232392</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

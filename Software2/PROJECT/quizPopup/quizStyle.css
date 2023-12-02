@@ -19,8 +19,8 @@
 /* Popup container */
 .popup-container {
     display: none;
-    width: 400px; /* Adjust this size as needed */
-    height: 400px; /* Adjust this size as needed */
+    width: 400px;
+    height: 400px;
     background-image: url('../photos/PopupImg.png');
     background-size: cover;
     text-align: center;
