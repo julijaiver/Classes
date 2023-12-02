@@ -13,6 +13,8 @@ nameForm.addEventListener('submit', async function(evt) {
     evt.preventDefault();
     const name = document.querySelector('#playersName').value;
 
+    // in the html file display name
+
     //Flask part?
     try {
         await fetch('/name', {

@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Nova-square';
-    src: url("Fonts/NovaSquare-Regular.ttf") format('truetype');
+    src: url("../Fonts/NovaSquare-Regular.ttf") format('truetype');
 }
 
 #startOverlay {
