@@ -16,9 +16,6 @@
     width: 700px;
 }
 
-#quizButton {
-    margin-top: 600px;
-}
 
 .overlay {
     display:none;
@@ -66,12 +63,6 @@
     color: black;
 }
 
-#submitQuiz {
-    position: absolute;
-    top: 77%;
-    left: 42%;
-}
-
 .pop-content img {
     width: 100%;
     height: auto;
@@ -87,12 +78,6 @@
     top: 53%;
     left: 45%;
     transform: translate(-50%, -50%);
-}
-
-#submitContinent {
-    position: absolute;
-    top: 60%;
-    left: 42%;
 }
 
 form {
@@ -123,16 +108,30 @@ form {
     color: white;
     background-color: rgb(77, 77, 77);
     border-radius: 15px;
-    margin-top: 20px;
 }
 
 .popup-button:hover {
     background-color: rgb(255, 255, 255, 0.4);
 }
 
+#submitName {
+    margin-top: 20px;
+}
+#submitContinent {
+    position: absolute;
+    top: 60%;
+    left: 42%;
+}
+
+#submitQuiz {
+    position: absolute;
+    top: 77%;
+    left: 42%;
+}
+
 #successButton {
     position: absolute;
-    top: 63%;
+    top: 68%;
     left: 44%;
 }
 
@@ -145,3 +144,6 @@ form {
 #missionSuccess {
     display: none;
 }
+
+
+
