@@ -66,7 +66,7 @@ function initializeMap() {
     });
 }
 
-//Popup doesn't stay open when mouse is over it
+//Popup doesn't close when mouse goes off
 
 
 // Need to set initial coordinates with database random loc.
@@ -81,8 +81,8 @@ function showPopup(id) {
 async function nameFormSubmit(evt) {
     evt.preventDefault();
     const name = document.querySelector('#playersName').value;
-    const nameDisplay = document.querySelector('#displayName');
-    nameDisplay.append(name);
+    //const nameDisplay = document.querySelector('#displayName');
+    //nameDisplay.append(name);
     popup.style.display = 'none';
      //Flask part?
 //     try {

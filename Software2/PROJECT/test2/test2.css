@@ -24,31 +24,48 @@ justify-content: space-evenly;
     height: auto;
 }
 
-/*document*/
-
 /*---universal---*/
 html {
     height: 100%;
 }
 
 body {
+    margin: auto;
     font-family: Nova-square, sans-serif;
     width: 100%;
-    margin: auto;
     min-height: 100vh;
     background-color: var(--white);
 }
 
 .container {
     width: 100%;
-    padding: 0;
+    padding: 5rem;
     margin: auto;
+    background-image: url("photos/planeDark.png");
+    background-repeat: repeat;
 }
 
 .page-header {
-    top:0;
-    left: 0;
-    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.page-nav {
+    display: flex;
+    align-items: center;
+}
+
+.navElement {
+    width: 80px;
+    height: auto;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 1rem;
 }
 
 .button {
@@ -60,22 +77,11 @@ body {
     transition: all 300ms;
 }
 
-.button-white {
-    background-color: var(--white);
-    color: var(--black)
-}
 
 .logo {
     float: left;
-}
-.logo a {
-    text-decoration: none;
-    color: var(--white);
-}
+    padding: 1rem;
 
-
-.logo a:hover {
-    color: red;
 }
 
 header, footer {
@@ -84,9 +90,6 @@ header, footer {
     padding: 1rem;
 }
 
-ul {
-    list-style-type: none;
-}
 
 footer {
     margin-top: auto;
@@ -94,22 +97,26 @@ footer {
 
 /*---game page---*/
 #map {
-    width: 55%;
-    padding: 2rem;
+    width: 45%;
     white-space: nowrap;
     overflow: hidden;
 }
 
 #data {
     width: 35%;
-    padding: 2rem;
     white-space: nowrap;
     overflow: hidden;
+    margin-left: 1rem;
 }
 
 #map{
     border-radius: 6px;
     box-shadow: rgba(0, 0, 0, 0.3) 3px 3px 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 500px;
+    width: 700px;
 }
 
 .box {
@@ -127,6 +134,10 @@ td {
     padding: 0.5rem;
 }
 
+table {
+    background-color: rgba(255, 238, 238, 0.6);
+    width: 24rem;
+}
 /*---about page---*/
 .about-photo {
     width: 50%;
@@ -142,13 +153,6 @@ td {
     height: 100%;
 }
 
-#map {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    height: 500px;
-    width: 700px;
-}
 
 
 .overlay {
@@ -277,4 +281,8 @@ form {
 
 #missionSuccess {
     display: none;
+}
+
+footer {
+    text-align: center;
 }

@@ -5,18 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ac0155f-21e6-4362-afc2-ef7bd089652d" name="Changes" comment="comment">
-      <change afterPath="$PROJECT_DIR$/Software2/PROJECT/test2/photos/caughtPop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Software2/PROJECT/test2/photos/difficultyPop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Software2/PROJECT/test2/photos/mapMarker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Software2/PROJECT/test2/photos/marker2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Software2/PROJECT/test2/photos/marker3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Software2/PROJECT/test2/photos/missionSuccess.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Software2/PROJECT/test2/photos/roundMarker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Software2/PROJECT/test2/photos/successPop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Software2/PROJECT/test2/test2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Software2/PROJECT/test2/test2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Software2/PROJECT/test2/test2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Software2/PROJECT/test2/photos/aboutLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Software2/PROJECT/test2/photos/alternativeBack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Software2/PROJECT/test2/photos/gameLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Software2/PROJECT/test2/photos/planeBackground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Software2/PROJECT/test2/photos/planeDark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Software2/PROJECT/test2/photos/spyflyLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Software2/PROJECT/test2/photos/top10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Software2/PROJECT/test2/photos/top10hover.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Software2/PROJECT/test2/test2.css" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/PROJECT/test2/test2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Software2/PROJECT/test2/test2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/PROJECT/test2/test2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Software2/PROJECT/test2/test2.js" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/PROJECT/test2/test2.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,11 +101,11 @@
       <recent name="C:\Users\julia\PycharmProjects\Python.classes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\julia\PycharmProjects\Classes\Software2\PROJECT\test2\photos" />
       <recent name="C:\Users\julia\PycharmProjects\Classes\Software2\PROJECT\test2" />
       <recent name="C:\Users\julia\PycharmProjects\Classes\Software2\PROJECT\test\photos" />
       <recent name="C:\Users\julia\PycharmProjects\Classes\Software2\PROJECT\test" />
       <recent name="C:\Users\julia\PycharmProjects\Classes\Software2\PROJECT\photos" />
-      <recent name="C:\Users\julia\PycharmProjects\Classes\Software2\PROJECT\quizPopup" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.quizPop.js">
@@ -252,15 +252,7 @@
       <workItem from="1701592512594" duration="1309000" />
       <workItem from="1701614793210" duration="56000" />
       <workItem from="1701615137228" duration="323000" />
-      <workItem from="1701615664439" duration="2045000" />
-    </task>
-    <task id="LOCAL-00020" summary="comment">
-      <option name="closed" value="true" />
-      <created>1694767712751</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1694767712751</updated>
+      <workItem from="1701615664439" duration="12243000" />
     </task>
     <task id="LOCAL-00021" summary="comment">
       <option name="closed" value="true" />
@@ -646,7 +638,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701555746796</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="comment">
+      <option name="closed" value="true" />
+      <created>1701617883462</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1701617883462</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
