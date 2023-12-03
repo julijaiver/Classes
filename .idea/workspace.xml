@@ -5,10 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ac0155f-21e6-4362-afc2-ef7bd089652d" name="Changes" comment="comment">
+      <change afterPath="$PROJECT_DIR$/Software2/PROJECT/test2/photos/caughtPop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Software2/PROJECT/test2/photos/difficultyPop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Software2/PROJECT/test2/photos/mapMarker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Software2/PROJECT/test2/photos/marker2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Software2/PROJECT/test2/photos/marker3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Software2/PROJECT/test2/photos/missionSuccess.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Software2/PROJECT/test2/photos/roundMarker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Software2/PROJECT/test2/photos/successPop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Software2/PROJECT/test2/test2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Software2/PROJECT/test2/test2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Software2/PROJECT/test2/test2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software2/PROJECT/test/test.css" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/PROJECT/test/test.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software2/PROJECT/test/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/PROJECT/test/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software2/PROJECT/test/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/PROJECT/test/test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +28,8 @@
       <list>
         <option value="Python Script" />
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -66,37 +74,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/julia/Desktop/METROPOLIA/Software 2/Project/Demopeli-main&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/julia/PycharmProjects/Classes/Software2/PROJECT/test2",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\julia\PycharmProjects\Classes\Software2\PROJECT\test2" />
       <recent name="C:\Users\julia\Desktop\METROPOLIA\Software 2\HTML-CSS-JS\Assignment" />
       <recent name="C:\Users\julia\desktop" />
       <recent name="C:\Users\julia\desctop" />
       <recent name="C:\Users\julia\PycharmProjects\Python.classes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\julia\PycharmProjects\Classes\Software2\PROJECT\test2" />
       <recent name="C:\Users\julia\PycharmProjects\Classes\Software2\PROJECT\test\photos" />
       <recent name="C:\Users\julia\PycharmProjects\Classes\Software2\PROJECT\test" />
       <recent name="C:\Users\julia\PycharmProjects\Classes\Software2\PROJECT\photos" />
       <recent name="C:\Users\julia\PycharmProjects\Classes\Software2\PROJECT\quizPopup" />
-      <recent name="C:\Users\julia\PycharmProjects\Classes\Software2\PROJECT\startPopup" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.quizPop.js">
@@ -239,15 +248,11 @@
       <workItem from="1701329259197" duration="2295000" />
       <workItem from="1701336392457" duration="20571000" />
       <workItem from="1701454652003" duration="32698000" />
-      <workItem from="1701546364254" duration="8890000" />
-    </task>
-    <task id="LOCAL-00019" summary="comment">
-      <option name="closed" value="true" />
-      <created>1694766558413</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1694766558413</updated>
+      <workItem from="1701546364254" duration="9311000" />
+      <workItem from="1701592512594" duration="1309000" />
+      <workItem from="1701614793210" duration="56000" />
+      <workItem from="1701615137228" duration="323000" />
+      <workItem from="1701615664439" duration="2045000" />
     </task>
     <task id="LOCAL-00020" summary="comment">
       <option name="closed" value="true" />
@@ -633,7 +638,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701551822851</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="comment">
+      <option name="closed" value="true" />
+      <created>1701555746796</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1701555746796</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
