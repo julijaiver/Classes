@@ -49,3 +49,44 @@ difficultyButton.addEventListener('click', async function() {
         });
 });
 
+
+
+//currentPoints global var?
+//currentBattery global var?
+//in line 44
+flyButton.setAttribute('id', 'flyToAirport');
+const playerPoints = document.querySelector('#playerPoints');
+const batteryPower = document.querySelector('#batteryPower')
+async function flyToAirport() {
+    try {
+        const response = await fetch('/checkgoal');
+        if (!response.ok) throw new Error('Response failed');
+        const goal = await response.json();
+
+        if (goal === '1') {
+            alert('Weather seems to be clear and sunny in ..... You get ... points!');
+            playerPoints.innerHTML = `${currentPoints +15}`;
+            batteryPower.innerHTML = `${currentBattery - (distance)}`;
+            //current.airport = chosen.airport
+        } else if (goal === '2') {
+            alert('Weather seems to be cloudy in .... You get 20 points but use 15% more battery');
+            playerPoints.innerHTML = `${currentPoints +15}`;
+            batteryPower.innerHTML = `${currentBattery - (distance*1.15)}`;
+            //current.airport = chosen.airport
+        } else if (goal === '3') {
+            if (confirm('This location seems suspicious. Do you want to play a minigame with a possibility' +
+                'to gain points and extra battery power and risk getting caught?')) {
+                    startQuiz();
+                    overlay.style.display = 'block';
+                    quizPopupContainer.style.display = 'block';
+            } else {
+                alert("You didn't risk getting caught but.... Choose an airport");
+                //current airport stays the same.
+            }
+        const newAirportsInRange = await fetch('/flyto');
+        }
+
+    } catch (error) {
+        console.log(error.message)
+    }
+}
