@@ -55,6 +55,7 @@ difficultyButton.addEventListener('click', async function() {
 //currentBattery global var?
 //in line 44
 flyButton.setAttribute('id', 'flyToAirport');
+
 const playerPoints = document.querySelector('#playerPoints');
 const batteryPower = document.querySelector('#batteryPower')
 async function flyToAirport() {
@@ -76,17 +77,74 @@ async function flyToAirport() {
         } else if (goal === '3') {
             if (confirm('This location seems suspicious. Do you want to play a minigame with a possibility' +
                 'to gain points and extra battery power and risk getting caught?')) {
-                    startQuiz();
-                    overlay.style.display = 'block';
-                    quizPopupContainer.style.display = 'block';
+                startQuiz();
+                overlay.style.display = 'block';
+                quizPopupContainer.style.display = 'block';
             } else {
                 alert("You didn't risk getting caught but.... Choose an airport");
                 //current airport stays the same.
             }
-        const newAirportsInRange = await fetch('/flyto');
+        } else if (goal === '4') {
+            showPopup('gotCaught');
         }
+
+        const dataForBackend = {
+            airport.icao:
+            //points and battery sent at the end?
+        }
+
+        const airportsResponse = await fetch('/flyto', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(dataForBackend),
+        });
+
+        if (!airportsResponse.ok) throw new Error('Fetching airports failed');
+        const newAirportsinRange = await airportsResponse.json();
+
+        airportsInRangeOnMap(newAirportsinRange);
 
     } catch (error) {
         console.log(error.message)
     }
 }
+
+async function sendGameData() {
+    try {
+        const endGameData = {
+            //gameid?
+            //playerName
+            //points
+        }
+        const response = await fetch ('/endgame', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(endGameData),
+        });
+
+        if (!response.ok) throw new Error('Sending data failed');
+
+        const leaderboard = await fetch('/leaderboard');
+        if (!response.ok) throw new Error('Receiving leaderboard failed');
+
+        const leaderboardData = await leaderboard.json();
+
+        //in leaderboard table data = put response
+    } catch (error) {
+        console.error(error.message)
+    }
+}
+
+
+
+
+
+
+
+
+
+
