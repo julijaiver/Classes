@@ -141,6 +141,23 @@ async function sendGameData() {
 
 
 
+//async function getLeaderboard() {
+// const playerName = document.querySelector('#nameField');
+// const playerScore = document.querySelector('#scoreField');
+//  try {
+//  const response = await fetch('/leaderboard');
+//  if (!response.ok) throw new Error('Response failed');
+//  const leaderboard = await response.json();
+
+    // leaderboard.forEach(row => {
+    //     playerName.innerHTML = `${row.name}`
+    //     playerScore.innerHTML = `${row.score}`
+    // });
+// }
+// } catch (error) {
+// console.log.(error.message)
+// }
+
 
 
 
