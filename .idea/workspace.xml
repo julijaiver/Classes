@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ac0155f-21e6-4362-afc2-ef7bd089652d" name="Changes" comment="comment">
-      <change afterPath="$PROJECT_DIR$/Software2/PROJECT/test2/photos/aboutLogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Software2/PROJECT/test2/photos/alternativeBack.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Software2/PROJECT/test2/photos/gameLogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Software2/PROJECT/test2/photos/planeBackground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Software2/PROJECT/test2/photos/planeDark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Software2/PROJECT/test2/photos/spyflyLogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Software2/PROJECT/test2/photos/top10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Software2/PROJECT/test2/photos/top10hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Software2/Python/BackendExercises.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Software2/PROJECT/test2/test2.css" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/PROJECT/test2/test2.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Software2/PROJECT/test2/test2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/PROJECT/test2/test2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Software2/PROJECT/test2/test2.js" beforeDir="false" afterPath="$PROJECT_DIR$/Software2/PROJECT/test2/test2.js" afterDir="false" />
     </list>
@@ -26,10 +19,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -74,24 +67,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/julia/PycharmProjects/Classes/Software2/PROJECT/test2",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/julia/Desktop/METROPOLIA/Software 2/Project/SpyFly&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\julia\PycharmProjects\Classes\Software2\PROJECT\test2" />
@@ -108,7 +101,7 @@
       <recent name="C:\Users\julia\PycharmProjects\Classes\Software2\PROJECT\photos" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.quizPop.js">
+  <component name="RunManager">
     <configuration name="quizPop.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Software2/PROJECT/quizPopup/quizPop.js" working-dir="$PROJECT_DIR$/Software2/PROJECT">
       <method v="2" />
     </configuration>
@@ -252,47 +245,20 @@
       <workItem from="1701592512594" duration="1309000" />
       <workItem from="1701614793210" duration="56000" />
       <workItem from="1701615137228" duration="323000" />
-      <workItem from="1701615664439" duration="12243000" />
-    </task>
-    <task id="LOCAL-00021" summary="comment">
-      <option name="closed" value="true" />
-      <created>1694769027032</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1694769027032</updated>
-    </task>
-    <task id="LOCAL-00022" summary="comment">
-      <option name="closed" value="true" />
-      <created>1694786471708</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1694786471708</updated>
-    </task>
-    <task id="LOCAL-00023" summary="initial">
-      <option name="closed" value="true" />
-      <created>1694789141619</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1694789141619</updated>
-    </task>
-    <task id="LOCAL-00024" summary="comment">
-      <option name="closed" value="true" />
-      <created>1694869182702</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1694869182702</updated>
-    </task>
-    <task id="LOCAL-00025" summary="comment">
-      <option name="closed" value="true" />
-      <created>1694872030642</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1694872030642</updated>
+      <workItem from="1701615664439" duration="16797000" />
+      <workItem from="1701707077863" duration="89000" />
+      <workItem from="1701707178786" duration="28000" />
+      <workItem from="1701708123690" duration="1115000" />
+      <workItem from="1701711502733" duration="3920000" />
+      <workItem from="1701760238624" duration="2251000" />
+      <workItem from="1701769077069" duration="21000" />
+      <workItem from="1701770210360" duration="65000" />
+      <workItem from="1701776540179" duration="38000" />
+      <workItem from="1702050146043" duration="429000" />
+      <workItem from="1702056243266" duration="4442000" />
+      <workItem from="1702061997166" duration="62000" />
+      <workItem from="1702803628268" duration="3758000" />
+      <workItem from="1702886166763" duration="330000" />
     </task>
     <task id="LOCAL-00026" summary="initial">
       <option name="closed" value="true" />
@@ -646,7 +612,47 @@
       <option name="project" value="LOCAL" />
       <updated>1701617883462</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="comment">
+      <option name="closed" value="true" />
+      <created>1701637530630</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1701637530630</updated>
+    </task>
+    <task id="LOCAL-00071" summary="comment">
+      <option name="closed" value="true" />
+      <created>1701715209784</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1701715209784</updated>
+    </task>
+    <task id="LOCAL-00072" summary="comment">
+      <option name="closed" value="true" />
+      <created>1701763335250</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1701763335250</updated>
+    </task>
+    <task id="LOCAL-00073" summary="comment">
+      <option name="closed" value="true" />
+      <created>1701776561727</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1701776561728</updated>
+    </task>
+    <task id="LOCAL-00074" summary="comment">
+      <option name="closed" value="true" />
+      <created>1702060035639</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1702060035639</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -686,6 +692,7 @@
     <SUITE FILE_PATH="coverage/Python_classes$InheritanceExercises.coverage" NAME="InheritanceExercises Coverage Results" MODIFIED="1698218036854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Software2" />
     <SUITE FILE_PATH="coverage/Python_classes$Functions.coverage" NAME="Functions Coverage Results" MODIFIED="1694787880328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Classes$conditional_statement.coverage" NAME="conditional_statement Coverage Results" MODIFIED="1700748877738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Classes$testDatabase.coverage" NAME="testDatabase Coverage Results" MODIFIED="1702886216236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Software1/exercises" />
     <SUITE FILE_PATH="coverage/Python_classes$hgjk.coverage" NAME="hgjk Coverage Results" MODIFIED="1694153491846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_classes$conditional_statement.coverage" NAME="conditional_statement Coverage Results" MODIFIED="1698844484079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_classes$testExer.coverage" NAME="testExer Coverage Results" MODIFIED="1698844547007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Software2" />
@@ -703,10 +710,14 @@
     <SUITE FILE_PATH="coverage/Python_classes$databases.coverage" NAME="databases Coverage Results" MODIFIED="1695921186563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_classes$fourth.coverage" NAME="fourth Coverage Results" MODIFIED="1693854182323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_classes$testOne_time.coverage" NAME="testOne@time Coverage Results" MODIFIED="1696595579518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Classes$BackendExercises.coverage" NAME="BackendExercises Coverage Results" MODIFIED="1702886425227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Software2/Python" />
     <SUITE FILE_PATH="coverage/Python_classes$AnotherTesting.coverage" NAME="AnotherTesting Coverage Results" MODIFIED="1698168428476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Software2" />
+    <SUITE FILE_PATH="coverage/Classes$databases.coverage" NAME="databases Coverage Results" MODIFIED="1702805948271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Software1/exercises" />
     <SUITE FILE_PATH="coverage/Classes$InheritanceExercises.coverage" NAME="InheritanceExercises Coverage Results" MODIFIED="1700749015065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Software2/Python" />
     <SUITE FILE_PATH="coverage/Python_classes$second.coverage" NAME="second Coverage Results" MODIFIED="1693390565637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_classes$FunctionsForFlight.coverage" NAME="FunctionsForFlight Coverage Results" MODIFIED="1696361836293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flight game project" />
+    <SUITE FILE_PATH="coverage/Classes$APIexercises.coverage" NAME="APIexercises Coverage Results" MODIFIED="1702059993718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Software2/Python" />
+    <SUITE FILE_PATH="coverage/Classes$AssociationExercises.coverage" NAME="AssociationExercises Coverage Results" MODIFIED="1702050333916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Software2/Python" />
     <SUITE FILE_PATH="coverage/Python_classes$test.coverage" NAME="test Coverage Results" MODIFIED="1693501428073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
